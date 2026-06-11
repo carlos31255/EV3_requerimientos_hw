@@ -1,0 +1,1075 @@
+date,platform,category,name,change,percentage
+2026-05-01,linux,AMD CPU Speeds (Linux),1.4 Ghz to 1.49 Ghz,0.0001,0.0002
+2026-05-01,linux,AMD CPU Speeds (Linux),1.5 Ghz to 1.69 Ghz,0.0002,0.0007
+2026-05-01,linux,AMD CPU Speeds (Linux),1.7 Ghz to 1.99 Ghz,-0.0003,0.0017
+2026-05-01,linux,AMD CPU Speeds (Linux),2.0 Ghz to 2.29 Ghz,-0.0002,0.009
+2026-05-01,linux,AMD CPU Speeds (Linux),2.3 Ghz to 2.69 Ghz,-0.0003,0.0058
+2026-05-01,linux,AMD CPU Speeds (Linux),2.7 Ghz to 2.99 Ghz,0.0007,0.0046999999999999
+2026-05-01,linux,AMD CPU Speeds (Linux),3.0 Ghz to 3.29 Ghz,-0.0004,0.011
+2026-05-01,linux,AMD CPU Speeds (Linux),3.3 Ghz to 3.69 Ghz,0.0029,0.2458
+2026-05-01,linux,AMD CPU Speeds (Linux),3.7 Ghz and above,-0.0005,0.3912
+2026-05-01,linux,AMD CPU Speeds (Linux),Below 1.4 Ghz,0.0,0.0004
+2026-05-01,linux,Free Hard Drive Space (Linux),1 TB to 2 TB,-0.0029,0.0776
+2026-05-01,linux,Free Hard Drive Space (Linux),10 GB to  99 GB,0.0017,0.2201
+2026-05-01,linux,Free Hard Drive Space (Linux),100 GB to 249 GB,0.0012,0.2384
+2026-05-01,linux,Free Hard Drive Space (Linux),2 TB to 3 TB,0.0002,0.0084
+2026-05-01,linux,Free Hard Drive Space (Linux),250 GB to 499 GB,0.003,0.2251
+2026-05-01,linux,Free Hard Drive Space (Linux),3 TB to 4 TB,-0.001,0.0086
+2026-05-01,linux,Free Hard Drive Space (Linux),500 GB to 749 GB,0.0,0.0866
+2026-05-01,linux,Free Hard Drive Space (Linux),750 GB to 999 GB,-0.0027,0.1036
+2026-05-01,linux,Free Hard Drive Space (Linux),Above 4 TB,-0.0001,0.0016
+2026-05-01,linux,Free Hard Drive Space (Linux),Less than 10 GB,0.0005,0.0299
+2026-05-01,linux,Intel CPU Speeds (Linux),1.4 Ghz to 1.49 Ghz,0.0002,0.0003
+2026-05-01,linux,Intel CPU Speeds (Linux),1.5 Ghz to 1.69 Ghz,0.0001,0.002
+2026-05-01,linux,Intel CPU Speeds (Linux),1.7 Ghz to 1.99 Ghz,-0.0005,0.0033
+2026-05-01,linux,Intel CPU Speeds (Linux),2.0 Ghz to 2.29 Ghz,-0.0002,0.0043
+2026-05-01,linux,Intel CPU Speeds (Linux),2.3 Ghz to 2.69 Ghz,-0.0007,0.0133
+2026-05-01,linux,Intel CPU Speeds (Linux),2.7 Ghz to 2.99 Ghz,-0.0002,0.0115
+2026-05-01,linux,Intel CPU Speeds (Linux),3.0 Ghz to 3.29 Ghz,-0.0009,0.0141999999999999
+2026-05-01,linux,Intel CPU Speeds (Linux),3.3 Ghz to 3.69 Ghz,-0.0002,0.0381
+2026-05-01,linux,Intel CPU Speeds (Linux),3.7 Ghz and above,0.0006,0.2408
+2026-05-01,linux,Intel CPU Speeds (Linux),Below 1.4 Ghz,-0.0002,0.0016
+2026-05-01,linux,Linux Version,Arch Linux 64 bit,-0.0008,0.087
+2026-05-01,linux,Linux Version,Bazzite 64 bit,0.0254,0.0728
+2026-05-01,linux,Linux Version,CachyOS 64 bit,0.0499,0.1336
+2026-05-01,linux,Linux Version,Debian GNU/Linux 13 (trixie) 64 bit,0.0046,0.0186
+2026-05-01,linux,Linux Version,EndeavourOS Linux 64 bit,0.0186,0.0186
+2026-05-01,linux,Linux Version,Fedora Linux 43 (KDE Plasma Desktop Edition) 64 bit,-0.003,0.0141999999999999
+2026-05-01,linux,Linux Version,Fedora Linux 44 (KDE Plasma Desktop Edition) 64 bit,0.0157,0.0157
+2026-05-01,linux,Linux Version,Freedesktop SDK 25.08 (Flatpak runtime) 64 bit,0.0133,0.0549
+2026-05-01,linux,Linux Version,Linux Mint 22.3 64 bit,0.0018,0.0765
+2026-05-01,linux,Linux Version,Manjaro Linux 64 bit,-0.0016,0.0126
+2026-05-01,linux,Linux Version,Nobara Linux 43 (KDE Plasma Desktop Edition) 64 bit,0.0202,0.0202
+2026-05-01,linux,Linux Version,Other,-0.0599,0.1466
+2026-05-01,linux,Linux Version,Pop!_OS 24.04 LTS 64 bit,0.0156,0.0156
+2026-05-01,linux,Linux Version,SteamOS Holo 64 bit,0.0029,0.2334
+2026-05-01,linux,Linux Version,Ubuntu 24.04.4 LTS 64 bit,0.0048,0.0283999999999999
+2026-05-01,linux,Linux Version,Ubuntu 26.04 LTS 64 bit,0.017,0.017
+2026-05-01,linux,Linux Version,Ubuntu Core 24 64 bit,-0.0014,0.0344
+2026-05-01,linux,Physical CPUs (Linux),1 cpu,0.0,0.0002
+2026-05-01,linux,Physical CPUs (Linux),10 cpus,-0.0007,0.0268
+2026-05-01,linux,Physical CPUs (Linux),11 cpus,0.0001,0.0001
+2026-05-01,linux,Physical CPUs (Linux),12 cpus,-0.0011,0.0496999999999999
+2026-05-01,linux,Physical CPUs (Linux),128 cpus,0.0,0.0
+2026-05-01,linux,Physical CPUs (Linux),13 cpus,0.0,0.0
+2026-05-01,linux,Physical CPUs (Linux),14 cpus,-0.0015,0.0181
+2026-05-01,linux,Physical CPUs (Linux),15 cpus,0.0,0.0
+2026-05-01,linux,Physical CPUs (Linux),16 cpus,-0.0002,0.0458999999999999
+2026-05-01,linux,Physical CPUs (Linux),17 cpus,0.0,0.0
+2026-05-01,linux,Physical CPUs (Linux),18 cpus,0.0,0.0003
+2026-05-01,linux,Physical CPUs (Linux),2 cpus,-0.0022,0.0479
+2026-05-01,linux,Physical CPUs (Linux),20 cpus,-0.0008,0.0063
+2026-05-01,linux,Physical CPUs (Linux),22 cpus,0.0,0.0001
+2026-05-01,linux,Physical CPUs (Linux),23 cpus,0.0,0.0
+2026-05-01,linux,Physical CPUs (Linux),24 cpus,-0.0011,0.0108
+2026-05-01,linux,Physical CPUs (Linux),28 cpus,0.0,0.0001
+2026-05-01,linux,Physical CPUs (Linux),3 cpus,0.0,0.0002
+2026-05-01,linux,Physical CPUs (Linux),30 cpus,0.0,0.0
+2026-05-01,linux,Physical CPUs (Linux),32 cpus,0.0,0.0004
+2026-05-01,linux,Physical CPUs (Linux),36 cpus,0.0,0.0001
+2026-05-01,linux,Physical CPUs (Linux),4 cpus,0.0058,0.3510999999999999
+2026-05-01,linux,Physical CPUs (Linux),40 cpus,0.0,0.0
+2026-05-01,linux,Physical CPUs (Linux),44 cpus,0.0001,0.0001
+2026-05-01,linux,Physical CPUs (Linux),48 cpus,0.0,0.0
+2026-05-01,linux,Physical CPUs (Linux),5 cpus,0.0001,0.0003
+2026-05-01,linux,Physical CPUs (Linux),50 cpus,0.0,0.0
+2026-05-01,linux,Physical CPUs (Linux),52 cpus,0.0,0.0
+2026-05-01,linux,Physical CPUs (Linux),56 cpus,0.0,0.0
+2026-05-01,linux,Physical CPUs (Linux),6 cpus,-0.0006,0.1898999999999999
+2026-05-01,linux,Physical CPUs (Linux),64 cpus,0.0,0.0002
+2026-05-01,linux,Physical CPUs (Linux),7 cpus,-0.0001,0.0
+2026-05-01,linux,Physical CPUs (Linux),8 cpus,0.002,0.2512
+2026-05-01,linux,Physical CPUs (Linux),9 cpus,0.0,0.0
+2026-05-01,linux,Physical CPUs (Linux),96 cpus,0.0,0.0
+2026-05-01,linux,Primary Display Resolution (Linux),1280 x 1024,0.0001,0.0024
+2026-05-01,linux,Primary Display Resolution (Linux),1280 x 720,0.0007,0.0046
+2026-05-01,linux,Primary Display Resolution (Linux),1280 x 800,0.0025,0.0633
+2026-05-01,linux,Primary Display Resolution (Linux),1360 x 768,-0.0001,0.0038
+2026-05-01,linux,Primary Display Resolution (Linux),1366 x 768,0.001,0.0337
+2026-05-01,linux,Primary Display Resolution (Linux),1440 x 900,0.0001,0.0042
+2026-05-01,linux,Primary Display Resolution (Linux),1600 x 900,-0.0003,0.0069
+2026-05-01,linux,Primary Display Resolution (Linux),1680 x 1050,0.0,0.0037
+2026-05-01,linux,Primary Display Resolution (Linux),1920 x 1080,0.0021,0.3564
+2026-05-01,linux,Primary Display Resolution (Linux),1920 x 1200,-0.0007,0.033
+2026-05-01,linux,Primary Display Resolution (Linux),2256 x 1504,-0.0002,0.0026
+2026-05-01,linux,Primary Display Resolution (Linux),2560 x 1080,0.0001,0.0081999999999999
+2026-05-01,linux,Primary Display Resolution (Linux),2560 x 1440,-0.0008,0.1528999999999999
+2026-05-01,linux,Primary Display Resolution (Linux),2560 x 1600,0.0001,0.0158
+2026-05-01,linux,Primary Display Resolution (Linux),2880 x 1800,-0.0001,0.0045
+2026-05-01,linux,Primary Display Resolution (Linux),3072 x 1728,0.0004,0.0043
+2026-05-01,linux,Primary Display Resolution (Linux),3072 x 1920,0.0,0.0023
+2026-05-01,linux,Primary Display Resolution (Linux),3440 x 1440,-0.0021,0.0433
+2026-05-01,linux,Primary Display Resolution (Linux),3840 x 2160,-0.0014,0.0591
+2026-05-01,linux,Primary Display Resolution (Linux),3840 x 2400,0.0002,0.0024
+2026-05-01,linux,Primary Display Resolution (Linux),5120 x 1440,0.0003,0.0069999999999999
+2026-05-01,linux,Primary Display Resolution (Linux),5120 x 2880,0.0003,0.0031
+2026-05-01,linux,Primary Display Resolution (Linux),800 x 1280,-0.0013,0.1416
+2026-05-01,linux,Primary Display Resolution (Linux),Other,-0.0007,0.0408
+2026-05-01,linux,Processor Vendor (Linux),AuthenticAMD,0.002,0.6703
+2026-05-01,linux,Processor Vendor (Linux),GenuineIntel,-0.0022,0.3293
+2026-05-01,linux,System RAM (Linux),12 GB,0.0001,0.0435
+2026-05-01,linux,System RAM (Linux),16 GB,0.0113999999999999,0.4432999999999999
+2026-05-01,linux,System RAM (Linux),24 GB,0.0,0.0169
+2026-05-01,linux,System RAM (Linux),28 GB,-0.0004,0.0107
+2026-05-01,linux,System RAM (Linux),32 GB,-0.0075,0.2880999999999999
+2026-05-01,linux,System RAM (Linux),4 GB,-0.0006,0.02
+2026-05-01,linux,System RAM (Linux),48 GB,0.0,0.01
+2026-05-01,linux,System RAM (Linux),60 GB,0.0002,0.0283999999999999
+2026-05-01,linux,System RAM (Linux),64 GB,-0.0034,0.0467999999999999
+2026-05-01,linux,System RAM (Linux),8 GB,-0.0006,0.0667
+2026-05-01,linux,System RAM (Linux),Less than 4 GB,-0.0001,0.0005
+2026-05-01,linux,System RAM (Linux),More than 64 GB,0.0011,0.0166
+2026-05-01,linux,System RAM (Linux),Other,-0.0004,0.0084
+2026-05-01,linux,Total Hard Drive Space (Linux),10 GB to  99 GB,0.0009,0.0345
+2026-05-01,linux,Total Hard Drive Space (Linux),100 GB to 249 GB,-0.0001,0.1839
+2026-05-01,linux,Total Hard Drive Space (Linux),250 GB to 499 GB,0.0025,0.3057
+2026-05-01,linux,Total Hard Drive Space (Linux),500 GB to 749 GB,-0.0005,0.0222
+2026-05-01,linux,Total Hard Drive Space (Linux),750 GB to 999 GB,0.0006,0.2956
+2026-05-01,linux,Total Hard Drive Space (Linux),Above 1 TB,-0.0033,0.1577
+2026-05-01,linux,Total Hard Drive Space (Linux),Less than 10 GB,-0.0001,0.0003
+2026-05-01,linux,VRAM (Linux),1 GB,0.0051,0.2566
+2026-05-01,linux,VRAM (Linux),10 GB,-0.0009,0.0131
+2026-05-01,linux,VRAM (Linux),11 GB,-0.0004,0.0065
+2026-05-01,linux,VRAM (Linux),12 GB,-0.0027,0.0856
+2026-05-01,linux,VRAM (Linux),16 GB,-0.0044,0.1514
+2026-05-01,linux,VRAM (Linux),2 GB,0.0007,0.0385
+2026-05-01,linux,VRAM (Linux),20 GB,-0.0005,0.0098999999999999
+2026-05-01,linux,VRAM (Linux),22 GB,0.0079,0.0161
+2026-05-01,linux,VRAM (Linux),24 GB,-0.0005,0.0323
+2026-05-01,linux,VRAM (Linux),3 GB,0.0018,0.0144999999999999
+2026-05-01,linux,VRAM (Linux),4 GB,-0.0017,0.0759
+2026-05-01,linux,VRAM (Linux),512 MB,0.0016,0.0697
+2026-05-01,linux,VRAM (Linux),6 GB,0.0002,0.0503
+2026-05-01,linux,VRAM (Linux),8 GB,-0.0067,0.168
+2026-05-01,linux,VRAM (Linux),Other,0.0056,0.0116
+2026-05-01,linux,Video Card Description (Linux),AMD AMD Custom GPU 0405,0.0012,0.1051
+2026-05-01,linux,Video Card Description (Linux),AMD HawkPoint1,0.0006,0.0098999999999999
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon 500 Series,-0.0002,0.0021
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon 610M,0.0001,0.0026
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon 680M (RADV REMBRANDT),-0.0002,0.0138
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon 780M Graphics,0.0004,0.0231
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon Graphics,0.0016,0.0371
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon Graphics (RADV RENOIR),-0.0006,0.013
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon Graphics (RADV VANGOGH),0.0016,0.1195
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon PRO W6600,-0.0004,0.0032
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon PRO W6600M,0.0002,0.0021
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon R9 290,-0.0003,0.002
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon RX 480,0.0009,0.0139
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon RX 5500M,0.0,0.0016
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon RX 5700 XT,-0.0005,0.0087
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon RX 580 2048SP,-0.0004,0.0042
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon RX 6600 XT,-0.0007,0.0143
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon RX 6750 XT,-0.0009,0.0154
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon RX 6800,0.0001,0.0121
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon RX 6950 XT,-0.0001,0.0017
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon RX 7600 (RADV NAVI33),0.0005,0.0087
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon RX 7800 XT (RADV NAVI32),-0.0005,0.0111
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon RX 7900 XTX,-0.0013,0.0126
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon RX 9060 XT,0.0005,0.0118999999999999
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon RX 9070/9070 XT/9070 GRE,-0.0007,0.0224
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon Vega 8 Graphics,-0.0002,0.0113
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon Vega Series / Radeon Vega Mobile Series,0.0007,0.0194
+2026-05-01,linux,Video Card Description (Linux),AMD Radeon(TM) Graphics,-0.0003,0.0093
+2026-05-01,linux,Video Card Description (Linux),AMD Raphael,0.0003,0.0511
+2026-05-01,linux,Video Card Description (Linux),Intel HD Graphics 3000,-0.0001,0.0019
+2026-05-01,linux,Video Card Description (Linux),Intel HD Graphics 4000,0.0003,0.0036
+2026-05-01,linux,Video Card Description (Linux),Intel HD Graphics 4400,-0.0007,0.0026
+2026-05-01,linux,Video Card Description (Linux),Intel HD Graphics 4600,-0.0002,0.0033
+2026-05-01,linux,Video Card Description (Linux),Intel HD Graphics 520,-0.0004,0.0055
+2026-05-01,linux,Video Card Description (Linux),Intel HD Graphics 530,0.0001,0.0031
+2026-05-01,linux,Video Card Description (Linux),Intel HD Graphics 5500,-0.0003,0.0027
+2026-05-01,linux,Video Card Description (Linux),Intel HD Graphics 620,-0.0004,0.0056999999999999
+2026-05-01,linux,Video Card Description (Linux),Intel HD Graphics 630,0.0,0.003
+2026-05-01,linux,Video Card Description (Linux),Intel Intel Arc Graphics,0.0001,0.0025
+2026-05-01,linux,Video Card Description (Linux),Intel Intel Graphics,0.0005,0.0025
+2026-05-01,linux,Video Card Description (Linux),Intel Iris Xe Graphics,0.0014,0.0163
+2026-05-01,linux,Video Card Description (Linux),Intel UHD Graphics,0.0,0.0081999999999999
+2026-05-01,linux,Video Card Description (Linux),Intel UHD Graphics 600,0.0005,0.0029
+2026-05-01,linux,Video Card Description (Linux),Intel UHD Graphics 620,-0.0003,0.0139999999999999
+2026-05-01,linux,Video Card Description (Linux),Intel UHD Graphics 630,0.0002,0.0044
+2026-05-01,linux,Video Card Description (Linux),Intel(R) Graphics,0.0002,0.0025
+2026-05-01,linux,Video Card Description (Linux),Intel(R) Graphics (ADL GT2),-0.0001,0.0021
+2026-05-01,linux,Video Card Description (Linux),Intel(R) Graphics (RPL-U),-0.0002,0.0022
+2026-05-01,linux,Video Card Description (Linux),Intel(R) Graphics d gfx-driver-ci-master-15944 DCH-D RI,0.0001,0.002
+2026-05-01,linux,Video Card Description (Linux),Intel(R) Iris(R) Xe Graphics,0.0,0.0055
+2026-05-01,linux,Video Card Description (Linux),Intel(R) UHD Graphics (CML GT2),0.0006,0.0056999999999999
+2026-05-01,linux,Video Card Description (Linux),Intel(R) UHD Graphics (ICL GT1),-0.0004,0.0021
+2026-05-01,linux,Video Card Description (Linux),Intel(R) UHD Graphics (TGL GT2),-0.0004,0.0022
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce GTX 1050,-0.0001,0.0029
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce GTX 1050 Ti,0.0004,0.0064
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce GTX 1060,-0.0002,0.009
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce GTX 1070,-0.0004,0.0055
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce GTX 1080,-0.0001,0.0037
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce GTX 1080 Ti,0.0,0.0032
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce GTX 1650,-0.0001,0.008
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce GTX 1660,0.0001,0.0025
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce GTX 1660 SUPER,0.0003,0.0060999999999999
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce GTX 1660 Ti,0.0008,0.0049
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce GTX 970,-0.0002,0.0019
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 2050,0.0016,0.0016
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 2060,0.0013,0.0107
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 2060 SUPER,-0.0002,0.003
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 2070 SUPER,-0.0005,0.0045
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 2080,-0.0003,0.0018
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 2080 SUPER,0.0001,0.0019
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 2080 Ti,-0.0002,0.0023
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 3050,0.0004,0.0056999999999999
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 3050 6GB Laptop GPU,-0.0003,0.003
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 3050 Laptop GPU,-0.0007,0.0033
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 3050 Ti Laptop GPU,0.0,0.002
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 3060,0.0002,0.0197
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 3060 Laptop GPU,0.0001,0.0052
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 3060 Ti,0.0,0.0097
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 3070,0.0,0.0108
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 3070 Laptop GPU,0.0004,0.0021
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 3070 Ti,-0.0001,0.005
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 3080,-0.0004,0.01
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 3080 Ti,0.0006,0.0046
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 3090,0.0002,0.0048
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 4050 Laptop GPU,0.0002,0.0053
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 4060,-0.0002,0.009
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 4060 Laptop GPU,-0.0003,0.0068
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 4060 Ti,-0.0009,0.005
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 4070,-0.0008,0.0062
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 4070 Laptop GPU,0.0001,0.0037
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 4070 SUPER,-0.0003,0.0042
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 4070 Ti,-0.0001,0.0037
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 4070 Ti SUPER,0.0,0.0029
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 4080,-0.0001,0.0029
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 4080 SUPER,-0.0004,0.0024
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 4090,0.0002,0.0048
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 5060,-0.0001,0.0028
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 5060 Max-Q / Mobile,0.0016,0.0016
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 5060 Ti,-0.0003,0.0040999999999999
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 5070,-0.0002,0.0037
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 5070 Max-Q / Mobile,0.0016,0.0016
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 5070 Ti,0.0002,0.0046
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 5080,-0.0001,0.0033
+2026-05-01,linux,Video Card Description (Linux),NVIDIA GeForce RTX 5090,-0.0001,0.0019
+2026-05-01,linux,Video Card Description (Linux),Other,0.001,0.0684999999999999
+2026-05-01,pc,AMD CPU Speeds (Windows),1.4 Ghz to 1.49 Ghz,0.0,0.0001
+2026-05-01,pc,AMD CPU Speeds (Windows),1.5 Ghz to 1.69 Ghz,0.0,0.0002
+2026-05-01,pc,AMD CPU Speeds (Windows),1.7 Ghz to 1.99 Ghz,0.0007,0.0107
+2026-05-01,pc,AMD CPU Speeds (Windows),2.0 Ghz to 2.29 Ghz,0.0004,0.0104
+2026-05-01,pc,AMD CPU Speeds (Windows),2.3 Ghz to 2.69 Ghz,0.0006,0.0166
+2026-05-01,pc,AMD CPU Speeds (Windows),2.7 Ghz to 2.99 Ghz,0.0005,0.016
+2026-05-01,pc,AMD CPU Speeds (Windows),3.0 Ghz to 3.29 Ghz,0.0009,0.0518
+2026-05-01,pc,AMD CPU Speeds (Windows),3.3 Ghz to 3.69 Ghz,0.0011,0.1297
+2026-05-01,pc,AMD CPU Speeds (Windows),3.7 Ghz and above,0.0036,0.214
+2026-05-01,pc,AMD CPU Speeds (Windows),Below 1.4 Ghz,0.0,0.0002
+2026-05-01,pc,DirectX 11 GPUs,AMD Radeon 6600M and 6700M Series,0.0009,0.0044
+2026-05-01,pc,DirectX 11 GPUs,AMD Radeon HD 6300M Series,0.0034,0.0034
+2026-05-01,pc,DirectX 11 GPUs,AMD Radeon HD 6310,-0.0006,0.0032
+2026-05-01,pc,DirectX 11 GPUs,AMD Radeon HD 6450,-0.0003,0.015
+2026-05-01,pc,DirectX 11 GPUs,AMD Radeon HD 6520G,0.0002,0.0033
+2026-05-01,pc,DirectX 11 GPUs,AMD Radeon HD 6570,0.0006,0.0115
+2026-05-01,pc,DirectX 11 GPUs,AMD Radeon HD 6670,0.001,0.013
+2026-05-01,pc,DirectX 11 GPUs,AMD Radeon HD 6700 Series,-0.0007,0.0109
+2026-05-01,pc,DirectX 11 GPUs,AMD Radeon HD 6800 Series,0.0,0.0093999999999999
+2026-05-01,pc,DirectX 11 GPUs,AMD Radeon HD 6900 Series,-0.0008,0.0046999999999999
+2026-05-01,pc,DirectX 11 GPUs,AMD Radeon HD 7400M Series,0.0034,0.009
+2026-05-01,pc,DirectX 11 GPUs,ATI Mobility Radeon HD 5000 Series,-0.0019,0.0106
+2026-05-01,pc,DirectX 11 GPUs,ATI Radeon HD 5450,-0.001,0.0219
+2026-05-01,pc,DirectX 11 GPUs,ATI Radeon HD 5570,0.001,0.0046999999999999
+2026-05-01,pc,DirectX 11 GPUs,ATI Radeon HD 5670,0.0002,0.005
+2026-05-01,pc,DirectX 11 GPUs,ATI Radeon HD 5700 Series,0.0009,0.0116999999999999
+2026-05-01,pc,DirectX 11 GPUs,ATI Radeon HD 5800 Series,-0.0011,0.005
+2026-05-01,pc,DirectX 11 GPUs,Intel Broadwell,0.0013,0.0069999999999999
+2026-05-01,pc,DirectX 11 GPUs,Intel Cherryview Cherrytrail,0.0034999999999999,0.0648
+2026-05-01,pc,DirectX 11 GPUs,Intel HD Graphics 2500,0.0008,0.0146
+2026-05-01,pc,DirectX 11 GPUs,Intel HD Graphics 4000,0.0131,0.2842
+2026-05-01,pc,DirectX 11 GPUs,Intel Haswell,-0.0067,0.1848
+2026-05-01,pc,DirectX 11 GPUs,Intel Ivy Bridge,-0.0095,0.2255
+2026-05-01,pc,DirectX 11 GPUs,Intel Valleyview Baytrail,-0.0046,0.0467999999999999
+2026-05-01,pc,DirectX 11 GPUs,Other,-0.0033,0.0255
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon 780M Graphics,0.0002,0.0038
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon Graphics,0.0011,0.021
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon RX 570,0.0,0.0039
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon RX 5700 XT,0.0001,0.0063
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon RX 580,0.0005,0.0062
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon RX 580 2048SP,-0.0001,0.0063
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon RX 6600,0.0001,0.0092
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon RX 6600 XT,0.0001,0.0037
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon RX 6700 XT,0.0001,0.006
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon RX 6750 XT,0.0001,0.0034999999999999
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon RX 7600 XT,0.0006,0.0086
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon RX 7800 XT,0.0003,0.0136
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon RX 7900 XTX,0.0,0.0052
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon Vega 8 Graphics,0.0002,0.0038
+2026-05-01,pc,DirectX 12 GPUs,AMD Radeon(TM) Graphics,0.0005,0.0252
+2026-05-01,pc,DirectX 12 GPUs,Intel Iris Xe Graphics,0.0007,0.0191
+2026-05-01,pc,DirectX 12 GPUs,Intel UHD Graphics,0.0003,0.0079
+2026-05-01,pc,DirectX 12 GPUs,Intel UHD Graphics 620,0.0003,0.0052
+2026-05-01,pc,DirectX 12 GPUs,Intel UHD Graphics 630,0.0002,0.0032
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce GTX 1050,0.0,0.0062
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce GTX 1050 Ti,0.0,0.0132
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce GTX 1060,-0.0007,0.0168
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce GTX 1070,-0.0001,0.0069999999999999
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce GTX 1080,0.0001,0.0046
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce GTX 1080 Ti,0.0,0.0034999999999999
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce GTX 1650,0.0,0.0281
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce GTX 1650 SUPER,0.0,0.0031
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce GTX 1650 Ti,0.0001,0.0042
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce GTX 1660,-0.0001,0.0052
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce GTX 1660 SUPER,0.0,0.0159
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce GTX 1660 Ti,0.0001,0.0098999999999999
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 2050,0.0002,0.0052
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 2060,-0.0006,0.0186
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 2060 SUPER,-0.0002,0.0084
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 2070,-0.0004,0.0049
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 2070 SUPER,0.0,0.0077
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 3050,0.0009,0.034
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 3050 6GB Laptop GPU,0.0007,0.0069999999999999
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 3050 Laptop GPU,0.0,0.0040999999999999
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 3050 Ti Laptop GPU,0.0001,0.0070999999999999
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 3060,-0.0012,0.0421999999999999
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 3060 Laptop GPU,0.0001,0.0204999999999999
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 3060 Ti,-0.0014,0.0237999999999999
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 3070,-0.001,0.0219
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 3070 Laptop GPU,0.0,0.0048
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 3070 Ti,-0.0004,0.0101
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 3080,-0.0002,0.0156
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 3080 Ti,0.0001,0.0062
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 3090,0.0001,0.0042
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 4050 Laptop GPU,0.0008,0.0178
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 4060,-0.0032,0.0388
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 4060 Laptop GPU,0.0001,0.0412999999999999
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 4060 Ti,-0.0012,0.0254
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 4070,-0.0006,0.0187999999999999
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 4070 Laptop GPU,0.0002,0.0105
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 4070 SUPER,-0.0006,0.0158
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 4070 Ti,-0.0003,0.0102
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 4070 Ti SUPER,-0.0004,0.0081
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 4080,0.0,0.0072
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 4080 SUPER,-0.0002,0.0069999999999999
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 4090,-0.0001,0.008
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 5060,-0.0014,0.0266
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 5060 Laptop GPU,0.0012,0.0187999999999999
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 5060 Ti,0.0016,0.0213
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 5070,0.0008,0.0319
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 5070 Ti,0.0004,0.018
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 5070 Ti Laptop GPU,0.0003,0.0038
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 5080,0.0004,0.0153
+2026-05-01,pc,DirectX 12 GPUs,NVIDIA GeForce RTX 5090,0.0,0.0045
+2026-05-01,pc,DirectX 12 GPUs,Other,0.0036,0.1249
+2026-05-01,pc,Drive Type (Windows),CD-Rom,0.0001,0.0028
+2026-05-01,pc,Drive Type (Windows),DVD,0.0009,0.0613999999999999
+2026-05-01,pc,Drive Type (Windows),Undetermined,-0.001,0.9358
+2026-05-01,pc,Free Hard Drive Space (Windows),1 TB to 2 TB,-0.0034,0.0981
+2026-05-01,pc,Free Hard Drive Space (Windows),10 GB to  99 GB,0.0043,0.1552
+2026-05-01,pc,Free Hard Drive Space (Windows),100 GB to 249 GB,0.0009,0.2348
+2026-05-01,pc,Free Hard Drive Space (Windows),2 TB to 3 TB,-0.0013,0.0233999999999999
+2026-05-01,pc,Free Hard Drive Space (Windows),250 GB to 499 GB,-0.0008,0.2276
+2026-05-01,pc,Free Hard Drive Space (Windows),3 TB to 4 TB,-0.0005,0.0169
+2026-05-01,pc,Free Hard Drive Space (Windows),500 GB to 749 GB,0.0004,0.115
+2026-05-01,pc,Free Hard Drive Space (Windows),750 GB to 999 GB,0.0003,0.0895
+2026-05-01,pc,Free Hard Drive Space (Windows),Above 4 TB,-0.0007,0.0311
+2026-05-01,pc,Free Hard Drive Space (Windows),Less than 10 GB,0.0009,0.0084
+2026-05-01,pc,Free Hard Drive Space (Windows),Unspecified,0.0,0.0
+2026-05-01,pc,Intel CPU Speeds (Windows),1.4 Ghz to 1.49 Ghz,0.0001,0.0014
+2026-05-01,pc,Intel CPU Speeds (Windows),1.5 Ghz to 1.69 Ghz,0.0,0.0017
+2026-05-01,pc,Intel CPU Speeds (Windows),1.7 Ghz to 1.99 Ghz,0.0002,0.0107
+2026-05-01,pc,Intel CPU Speeds (Windows),2.0 Ghz to 2.29 Ghz,0.0002,0.0313
+2026-05-01,pc,Intel CPU Speeds (Windows),2.3 Ghz to 2.69 Ghz,-0.0056999999999999,0.2127
+2026-05-01,pc,Intel CPU Speeds (Windows),2.7 Ghz to 2.99 Ghz,-0.0012,0.0878999999999999
+2026-05-01,pc,Intel CPU Speeds (Windows),3.0 Ghz to 3.29 Ghz,0.0003,0.0518
+2026-05-01,pc,Intel CPU Speeds (Windows),3.3 Ghz to 3.69 Ghz,-0.0023,0.1261
+2026-05-01,pc,Intel CPU Speeds (Windows),3.7 Ghz and above,0.0,0.0185
+2026-05-01,pc,Intel CPU Speeds (Windows),Below 1.4 Ghz,0.0004,0.008
+2026-05-01,pc,Physical CPUs (Windows),1 cpu,-0.0001,0.0002
+2026-05-01,pc,Physical CPUs (Windows),10 cpus,-0.0037,0.0687
+2026-05-01,pc,Physical CPUs (Windows),11 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),12 cpus,0.0002,0.0509
+2026-05-01,pc,Physical CPUs (Windows),128 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),13 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),14 cpus,-0.0012,0.0494
+2026-05-01,pc,Physical CPUs (Windows),15 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),16 cpus,0.0016,0.0578
+2026-05-01,pc,Physical CPUs (Windows),17 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),18 cpus,0.0001,0.0007
+2026-05-01,pc,Physical CPUs (Windows),19 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),2 cpus,0.0008,0.0302
+2026-05-01,pc,Physical CPUs (Windows),20 cpus,0.0003,0.0218
+2026-05-01,pc,Physical CPUs (Windows),21 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),22 cpus,-0.0001,0.0
+2026-05-01,pc,Physical CPUs (Windows),23 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),24 cpus,0.0008,0.0293
+2026-05-01,pc,Physical CPUs (Windows),26 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),28 cpus,0.0,0.0001
+2026-05-01,pc,Physical CPUs (Windows),3 cpus,0.0,0.001
+2026-05-01,pc,Physical CPUs (Windows),30 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),32 cpus,0.0,0.0001
+2026-05-01,pc,Physical CPUs (Windows),36 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),4 cpus,0.0017,0.1253999999999999
+2026-05-01,pc,Physical CPUs (Windows),40 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),44 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),48 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),5 cpus,0.0001,0.0017
+2026-05-01,pc,Physical CPUs (Windows),52 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),56 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),6 cpus,-0.0056999999999999,0.2894
+2026-05-01,pc,Physical CPUs (Windows),60 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),64 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),7 cpus,0.0,0.0001
+2026-05-01,pc,Physical CPUs (Windows),76 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),8 cpus,0.0053,0.2731
+2026-05-01,pc,Physical CPUs (Windows),9 cpus,0.0,0.0
+2026-05-01,pc,Physical CPUs (Windows),96 cpus,0.0,0.0
+2026-05-01,pc,Primary Display Resolution (Windows),1280 x 1024,0.0,0.0021
+2026-05-01,pc,Primary Display Resolution (Windows),1280 x 720,0.0001,0.0022
+2026-05-01,pc,Primary Display Resolution (Windows),1360 x 768,0.0002,0.0045
+2026-05-01,pc,Primary Display Resolution (Windows),1366 x 768,0.0011,0.0242
+2026-05-01,pc,Primary Display Resolution (Windows),1440 x 900,0.0,0.004
+2026-05-01,pc,Primary Display Resolution (Windows),1600 x 900,0.0002,0.0072
+2026-05-01,pc,Primary Display Resolution (Windows),1680 x 1050,0.0001,0.0037
+2026-05-01,pc,Primary Display Resolution (Windows),1920 x 1080,-0.0021,0.536
+2026-05-01,pc,Primary Display Resolution (Windows),1920 x 1200,0.0015,0.0250999999999999
+2026-05-01,pc,Primary Display Resolution (Windows),2560 x 1080,-0.0001,0.0072
+2026-05-01,pc,Primary Display Resolution (Windows),2560 x 1440,-0.0017,0.218
+2026-05-01,pc,Primary Display Resolution (Windows),2560 x 1600,0.0007,0.0516999999999999
+2026-05-01,pc,Primary Display Resolution (Windows),2880 x 1800,0.0001,0.0048
+2026-05-01,pc,Primary Display Resolution (Windows),3440 x 1440,0.0005,0.0318
+2026-05-01,pc,Primary Display Resolution (Windows),3840 x 2160,-0.001,0.0506
+2026-05-01,pc,Primary Display Resolution (Windows),5120 x 1440,0.0001,0.0040999999999999
+2026-05-01,pc,Primary Display Resolution (Windows),Other,0.0003,0.0229
+2026-05-01,pc,Processor Vendor (Windows),AuthenticAMD,0.0079,0.4497
+2026-05-01,pc,Processor Vendor (Windows),GenuineIntel,-0.0079,0.5502
+2026-05-01,pc,Processor Vendor (Windows),MicrosoftXTA,0.0,0.0
+2026-05-01,pc,System RAM (Windows),12 GB,0.0008,0.0252
+2026-05-01,pc,System RAM (Windows),16 GB,0.0023,0.4095
+2026-05-01,pc,System RAM (Windows),24 GB,0.0008,0.019
+2026-05-01,pc,System RAM (Windows),28 GB,-0.0001,0.0053
+2026-05-01,pc,System RAM (Windows),32 GB,-0.006,0.3792999999999999
+2026-05-01,pc,System RAM (Windows),4 GB,0.0002,0.0148
+2026-05-01,pc,System RAM (Windows),48 GB,-0.0003,0.0115
+2026-05-01,pc,System RAM (Windows),60 GB,0.0002,0.0091
+2026-05-01,pc,System RAM (Windows),64 GB,0.0006,0.0415
+2026-05-01,pc,System RAM (Windows),8 GB,0.0015,0.0737
+2026-05-01,pc,System RAM (Windows),Less than 4 GB,0.0,0.0002
+2026-05-01,pc,System RAM (Windows),More than 64 GB,0.0,0.0056999999999999
+2026-05-01,pc,System RAM (Windows),Other,0.0,0.0053
+2026-05-01,pc,Total Hard Drive Space (Windows),10 GB to  99 GB,0.0001,0.0008
+2026-05-01,pc,Total Hard Drive Space (Windows),100 GB to 249 GB,0.0019,0.0438999999999999
+2026-05-01,pc,Total Hard Drive Space (Windows),250 GB to 499 GB,0.0038,0.1675
+2026-05-01,pc,Total Hard Drive Space (Windows),500 GB to 749 GB,0.0,0.0252
+2026-05-01,pc,Total Hard Drive Space (Windows),750 GB to 999 GB,0.0052,0.2385
+2026-05-01,pc,Total Hard Drive Space (Windows),Above 1 TB,-0.0109,0.5239
+2026-05-01,pc,Total Hard Drive Space (Windows),Unspecified,0.0,0.0002
+2026-05-01,pc,VRAM (Windows),1 GB,-0.0019,0.0093
+2026-05-01,pc,VRAM (Windows),10 GB,-0.0003,0.0154
+2026-05-01,pc,VRAM (Windows),11 GB,-0.0001,0.006
+2026-05-01,pc,VRAM (Windows),12 GB,-0.0017,0.1414
+2026-05-01,pc,VRAM (Windows),128 MB,0.0042,0.0669
+2026-05-01,pc,VRAM (Windows),16 GB,0.0015,0.1085999999999999
+2026-05-01,pc,VRAM (Windows),2 GB,-0.0005,0.0378
+2026-05-01,pc,VRAM (Windows),24 GB,-0.0001,0.0174
+2026-05-01,pc,VRAM (Windows),3 GB,-0.0003,0.0069999999999999
+2026-05-01,pc,VRAM (Windows),4 GB,0.0018,0.1051
+2026-05-01,pc,VRAM (Windows),512 MB,0.0004,0.0255
+2026-05-01,pc,VRAM (Windows),6 GB,0.0013,0.1118
+2026-05-01,pc,VRAM (Windows),8 GB,-0.0044,0.3304999999999999
+2026-05-01,pc,VRAM (Windows),Other,0.0001,0.0172
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon (TM) Graphics,0.0004,0.0048
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon 780M Graphics,0.0001,0.0027
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon Graphics,0.0009,0.0189
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 550,0.0,0.0022
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 570,0.0,0.0038
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 5700 XT,0.0,0.0056999999999999
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 580,0.0004,0.006
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 580 2048SP,-0.0001,0.0059
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 6500 XT,0.0,0.002
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 6600,0.0001,0.009
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 6600 XT,0.0001,0.003
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 6650 XT,-0.0001,0.0027
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 6700 XT,0.0,0.0058
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 6750 XT,0.0,0.0027
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 6800,0.0001,0.0017
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 6800 XT,-0.0001,0.0024
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 6900 XT,0.0001,0.0017
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 7600 XT,0.0006,0.0084
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 7700 XT,0.0,0.0026
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 7800 XT,0.0004,0.0133
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 7900 XTX,0.0,0.0045
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon RX 9070,0.0,0.0018
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon Vega 3 Graphics,0.0,0.002
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon Vega 8 Graphics,0.0001,0.0032
+2026-05-01,pc,Video Card Description (Windows),AMD Radeon(TM) Graphics,0.0005,0.0242
+2026-05-01,pc,Video Card Description (Windows),Intel Arc Graphics,0.0001,0.0028
+2026-05-01,pc,Video Card Description (Windows),Intel HD Graphics 4600,0.0,0.0017
+2026-05-01,pc,Video Card Description (Windows),Intel HD Graphics 520,0.0001,0.0021
+2026-05-01,pc,Video Card Description (Windows),Intel HD Graphics 620,0.0001,0.002
+2026-05-01,pc,Video Card Description (Windows),Intel Iris Xe Graphics,0.0006,0.0179
+2026-05-01,pc,Video Card Description (Windows),Intel UHD Graphics,0.0002,0.0073
+2026-05-01,pc,Video Card Description (Windows),Intel UHD Graphics 620,0.0003,0.0045
+2026-05-01,pc,Video Card Description (Windows),Intel UHD Graphics 630,0.0,0.0028
+2026-05-01,pc,Video Card Description (Windows),Intel(R) Graphics,0.0004,0.0038
+2026-05-01,pc,Video Card Description (Windows),Intel(R) UHD Graphics,0.0007,0.0121999999999999
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GT 1030,0.0001,0.0023
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GT 730,0.0,0.0017
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 1050,0.0,0.0059
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 1050 Ti,0.0,0.0126
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 1060,-0.0008,0.0159
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 1070,0.0,0.0066
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 1070 Ti,-0.0001,0.0021
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 1080,0.0,0.0043
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 1080 Ti,-0.0001,0.0032
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 1650,0.0,0.027
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 1650 SUPER,0.0001,0.003
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 1650 Ti,0.0,0.004
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 1660,-0.0001,0.005
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 1660 SUPER,-0.0001,0.0152
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 1660 Ti,0.0001,0.0095
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 750 Ti,-0.0001,0.0018
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 960,-0.0002,0.0018
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce GTX 970,0.0,0.002
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 2050,0.0001,0.005
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 2060,-0.0006,0.0177
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 2060 SUPER,-0.0002,0.0081
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 2070,-0.0004,0.0046999999999999
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 2070 SUPER,-0.0001,0.0073
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 2080,-0.0001,0.0024
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 2080 SUPER,-0.0002,0.0027
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 2080 Ti,-0.0002,0.0023
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3050,0.0008,0.0327999999999999
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3050 6GB Laptop GPU,0.0007,0.0067
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3050 Laptop GPU,0.0,0.0038
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3050 Ti Laptop GPU,0.0001,0.0069
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3060,-0.0013,0.0401999999999999
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3060 Laptop GPU,0.0,0.0197
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3060 Ti,-0.0015,0.0227
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3070,-0.0011,0.0208
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3070 Laptop GPU,0.0,0.0046
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3070 Ti,-0.0004,0.0097
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3070 Ti Laptop GPU,-0.0001,0.0023
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3080,-0.0003,0.0147
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3080 Ti,0.0,0.0058
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 3090,0.0001,0.0039
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 4050 Laptop GPU,0.0007,0.0171
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 4060,-0.0031,0.0374
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 4060 Laptop GPU,0.0001,0.0399
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 4060 Ti,-0.0012,0.0245
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 4070,-0.0006,0.0181
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 4070 Laptop GPU,0.0002,0.0101
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 4070 SUPER,-0.0006,0.0152
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 4070 Ti,-0.0003,0.0098
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 4070 Ti SUPER,-0.0004,0.0078
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 4080,0.0,0.0069
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 4080 Laptop GPU,0.0001,0.002
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 4080 SUPER,-0.0002,0.0067
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 4090,-0.0001,0.0076
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 5050,0.0002,0.0019
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 5050 Laptop GPU,0.0003,0.0029
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 5060,-0.0013,0.0258
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 5060 Laptop GPU,0.0012,0.0183
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 5060 Ti,0.0016,0.0206
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 5070,0.0008,0.0308999999999999
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 5070 Laptop GPU,0.0005,0.0052
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 5070 Ti,0.0003,0.0173
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 5070 Ti Laptop GPU,0.0003,0.0037
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 5080,0.0003,0.0147
+2026-05-01,pc,Video Card Description (Windows),NVIDIA GeForce RTX 5090,0.0,0.0043
+2026-05-01,pc,Video Card Description (Windows),Other,0.0025,0.0846
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon 500 Series,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon 530,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon 535,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon 540 Graphics,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon 540X Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon 550X,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon 620,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon 740M Graphics,0.0,0.0006
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon 760M Graphics,0.0,0.0012
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon 780M Graphics,0.0002,0.0068
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon 880M Graphics,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon 890M Graphics,0.0002,0.0024
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Graphics,0.0018,0.0384
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 6800M Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 7700 Series,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 7700M Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 7800 Series,-0.0002,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 7800M Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 7900 Series,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 7970M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8210,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8240,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8250,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8280,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8330,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8330E,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8350G,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8370D,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8400,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8450G,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8470D,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8490,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8500 Series,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8500M,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8500M Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8500M/8700M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8510G,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8530M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8550G,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8570D,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8600 Series,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8600/8700M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8600M Series,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8610G,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8650D,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8650G,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8670D,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8790M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8800 Series,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8800M Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8950,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon HD 8970M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon PRO W6600,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon PRO W6600M,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 450,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 460,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 5300,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 5300M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 5500 XT,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 5500M,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 555,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 555X,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 5600M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 560X,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 5700,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 5700 XT,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 575,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro 580,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro Vega 20,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro Vega 48,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro Vega 56,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro W5700,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro W5700X,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro WX 2100,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro WX 3100,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro WX 3200 Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro WX 4100,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro WX 4130,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro WX 4170,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro WX 5100,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro WX 7100,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro WX 8100,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro WX 9100,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Pro WX Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R2 Graphics,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R2E Graphics,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R3 Graphics,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R4 Graphics,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R5 340,0.0002,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R5 Graphics,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R5 M200 Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R5 M255,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R5 M315,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R5 M320,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R5 M330,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R5 M335,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R5 M435,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R5E Graphics,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R6 Graphics,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 200 Series,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 240 Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 300 Series,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 350,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 360,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 370 Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 Graphics,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 M260 Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 M265 Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 M340,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 M350,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 M360,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 M370,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 M380,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 M445,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7 Series / HD 9000 Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R7E Graphics,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 200 Series,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 290,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 380 Series,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 390 Series,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 Fury Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 M280X,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 M295X,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 M360,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 M370X,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 M375,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 M375X,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 M380,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 M385,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 M390X,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon R9 M395X,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 350 Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 460,-0.0002,0.0006
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 470,0.0,0.0016
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 480,0.0004,0.0024
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 5300,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 5300M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 550,0.0,0.0042
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 5500,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 5500 XT,0.0,0.0024
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 5500M,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 560,0.0,0.0014
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 560 Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 5600,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 5600 XT,0.0,0.0028
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 5600M,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 560X,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 570,0.0,0.0072
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 5700,0.0,0.0018
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 5700 XT,0.0,0.0113999999999999
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 5700M Series,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 580,0.0006,0.0112
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 580 2048SP,-0.0004,0.0113999999999999
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 590 Series,-0.0002,0.001
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6300M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 640,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6400,0.0002,0.0012
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6500 XT,0.0,0.0038
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6500M,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6600,0.0,0.0168
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6600 XT,0.0002,0.0068
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6600M,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6650 XT,-0.0002,0.0052
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6700,0.0,0.0012
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6700 XT,0.0002,0.011
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6700M,0.0002,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6700S,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6750 GRE 10GB,-0.0002,0.0022
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6750 GRE 12GB,-0.0004,0.0022
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6750 XT,0.0,0.0064
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6800,0.0,0.004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6800 XT,0.0,0.0046
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6800M,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6800S,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6850M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6900 XT,0.0,0.0032
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 6950 XT,0.0,0.002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 7600 XT,0.0012,0.0158
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 7600M XT,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 7650 GRE,0.0,0.0016
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 7700 XT,0.0,0.005
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 7800 XT,0.0004,0.0248
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 7800M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 7900 GRE,0.0002,0.002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 7900 XTX,-0.0002,0.0093999999999999
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 7900M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 9070,0.0,0.0034
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX 9070 GRE,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX Vega,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX Vega 10 Graphics,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX Vega 11 Graphics,0.0,0.002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX Vega 20,0.0002,0.0014
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX Vega11 Graphics,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon RX590 GME,-0.0002,0.001
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon VII,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Vega 10 Graphics,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Vega 10 Mobile Graphics,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Vega 11 Graphics,0.0002,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Vega 3 Graphics,0.0,0.0038
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Vega 6 Graphics,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Vega 8 Graphics,0.0004,0.0069999999999999
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Vega 8 Mobile Graphics,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Vega 9 Graphics,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon Vega Frontier Edition,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon(TM) 610M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon(TM) 780M,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),AMD Radeon(TM) Graphics,0.0006,0.046
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel Broadwell,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics - Braswell,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics - Broadwell,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics - Cherry Trail,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics 510,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics 515,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics 520,0.0002,0.0044
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics 530,0.0,0.0026
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics 5300,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics 5500,0.0002,0.0018
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics 5600,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics 6000,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics 610,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics 615,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics 620,0.0002,0.0042
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics 630,0.0002,0.002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel HD Graphics P630,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel Iris Graphics 540,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel Iris Graphics 550,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel Iris Graphics 6100,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel Iris Plus Graphics 640,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel Iris Plus Graphics 645,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel Iris Plus Graphics 650,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel Iris Plus Graphics 655,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel Iris Pro Graphics 580,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel Iris Pro Graphics 6200,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel Iris Pro Graphics P580,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel Iris Pro Graphics P6300,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel Iris Xe Graphics,0.0012,0.035
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel UHD Graphics,0.0004,0.0144
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel UHD Graphics 600,0.0002,0.003
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel UHD Graphics 605,0.0,0.0006
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel UHD Graphics 610,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel UHD Graphics 615,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel UHD Graphics 617,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel UHD Graphics 620,0.0006,0.0096
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel UHD Graphics 630,0.0,0.0056
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel UHD Graphics 710,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel UHD Graphics 730,0.0,0.0024
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel UHD Graphics 750,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel UHD Graphics 770,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel(R) UHD Graphics 605,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel(R) UHD Graphics 710,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Intel(R) UHD Graphics 770,0.0,0.0006
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Mi Pad 5 Adreno 640 GPU,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GRID T4-8Q,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 705A,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 810A,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 810M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 825M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 830M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 840M,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 845M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 910M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 920A,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 920M,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 920MX,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 930M,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 930MX,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 940M,0.0,0.0014
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 940MX,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce 945M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 1010,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 1030,0.0002,0.0046
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 545,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 550M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 555M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 610,0.0,0.0006
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 620,-0.0002,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 625,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 630,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 635,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 640,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 640M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 640M LE,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 645M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 650M,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 705,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 710,0.0,0.0016
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 720,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 720M,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 730,0.0,0.0032
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 730M,-0.0002,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 735M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 740,-0.0002,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 740M,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 745M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 750M,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GT 755M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTS 450,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1050,-0.0002,0.0112
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1050 Ti,0.0,0.0242
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1050 Ti with Max-Q Design,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1060,-0.0016,0.0306
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1060 4GB,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1060 6GB,-0.0002,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1070,-0.0002,0.0128
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1070 Ti,0.0,0.0042
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1080,0.0,0.0084
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1080 Ti,0.0,0.0064
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1630,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1650,-0.0002,0.0513999999999999
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1650 SUPER,0.0002,0.0058
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1650 Ti,0.0,0.0076
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1650 with Max-Q Design,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1660,-0.0002,0.0096
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1660 SUPER,-0.0002,0.0289999999999999
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 1660 Ti,0.0002,0.0182
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 460,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 460 SE,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 460M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 480,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 550 Ti,0.0,0.0006
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 555,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 560,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 560 SE,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 560 Ti,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 560M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 570,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 570M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 580,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 580M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 645,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 650,-0.0002,0.0006
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 650 Ti,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 650 Ti Boost,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 660,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 660 Ti,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 660M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 670,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 670M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 670MX,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 675M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 675MX,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 680,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 680M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 680MX,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 690,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 745,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 750,0.0,0.0012
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 750 Ti,0.0,0.0036
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 760,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 760M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 765M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 770,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 770M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 775M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 780,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 780 Ti,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 780M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 850M,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 860M,-0.0002,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 870M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 880M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 950,0.0,0.001
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 950M,-0.0002,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 960,-0.0004,0.0034
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 960M,0.0,0.0014
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 965M,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 970,0.0,0.004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 970M,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 980,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 980 Ti,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX 980M,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX TITAN,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX TITAN Black,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX TITAN X,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce GTX TITAN Z,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce MX110,0.0,0.001
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce MX130,0.0,0.001
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce MX150,-0.0002,0.0012
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce MX230,0.0,0.0006
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce MX250,-0.0002,0.0014
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce MX330,0.0,0.0012
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce MX350,0.0,0.0014
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce MX450,0.0002,0.0016
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce MX550,0.0,0.0006
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 2050,0.0004,0.0096
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 2060,-0.0012,0.034
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 2060 SUPER,-0.0004,0.0154
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 2060 with Max-Q Design,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 2070,-0.0008,0.009
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 2070 SUPER,-0.0002,0.0139999999999999
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 2070 with Max-Q Design,0.0,0.0016
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 2080,-0.0002,0.0046
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 2080 SUPER,-0.0004,0.0052
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 2080 Super with Max-Q Design,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 2080 Ti,-0.0002,0.0046
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3050,0.0012,0.062
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3050 4GB Laptop GPU,0.0,0.0006
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3050 6GB Laptop GPU,0.0012,0.0128
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3050 A Laptop GPU,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3050 Laptop GPU,0.0,0.0074
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3050 OEM,0.0,0.001
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3050 Ti,0.0,0.0024
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3050 Ti Laptop GPU,0.0002,0.013
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3060,-0.0028,0.077
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3060 Laptop GPU,0.0,0.0374
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3060 Ti,-0.003,0.0434
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3070,-0.002,0.04
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3070 Laptop GPU,0.0,0.0088
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3070 Ti,-0.0008,0.0186
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3070 Ti Laptop GPU,-0.0002,0.0044
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3080,-0.0006,0.0283999999999999
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3080 Laptop GPU,-0.0002,0.002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3080 Ti,0.0,0.0112
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3080 Ti Laptop GPU,0.0,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3090,0.0,0.0076
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 3090 Ti,0.0,0.0014
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4050 Laptop GPU,0.0014,0.0326
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4060,-0.0062,0.071
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4060 Laptop GPU,-0.0002,0.0754
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4060 Ti,-0.0026,0.0464
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4070,-0.0014,0.0344
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4070 Laptop GPU,0.0002,0.0192
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4070 SUPER,-0.0014,0.0288
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4070 Ti,-0.0008,0.0186
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4070 Ti SUPER,-0.0008,0.0148
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4080,0.0,0.0132
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4080 Laptop GPU,0.0,0.0038
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4080 SUPER,-0.0004,0.0128
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4090,-0.0002,0.0146
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4090 D,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 4090 Laptop GPU,0.0,0.002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 5050,0.0004,0.0036
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 5060,-0.0028,0.0486
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 5060 Laptop GPU,0.0022,0.0344
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 5060 Ti,0.0028,0.039
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 5070,0.0012,0.0584
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 5070 Ti,0.0004,0.0327999999999999
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 5070 Ti Laptop GPU,0.0006,0.0069999999999999
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 5080,0.0006,0.0279999999999999
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 5080 Laptop GPU,0.0002,0.0008
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 5090,0.0,0.0081999999999999
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 5090 D,0.0,0.0006
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 5090 D V2,0.0,0.0006
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX 5090 Laptop GPU,0.0002,0.0012
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA GeForce RTX T10-8,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K1000M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K1100M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K1200,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K2000,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K2000D,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K2000M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K2100M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K2200,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K2200M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K3000M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K3100M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K4000,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K4000M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K4100M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K420,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K4200,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K5000M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K5100M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K5200,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K600,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K6000,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K620,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro K620M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro M1000M,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro M1200,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro M2000M,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro M4000,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro M5000,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro M5000M,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro M6000,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro P5000,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro P6000,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro RTX 3000,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro RTX 4000,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro RTX 5000,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA Quadro RTX 6000,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA RTX A2000 Laptop GPU,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA RTX A4000,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA RTX A4000 Laptop GPU,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA RTX A4500,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA RTX A4500 Laptop GPU,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA TITAN RTX,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA TITAN V,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),NVIDIA TITAN Xp,0.0,0.0002
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Other,0.0092,0.142
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Qualcomm Adreno 540 GPU,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Qualcomm Adreno 618 GPU,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Qualcomm Adreno 630 GPU,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Qualcomm Adreno 680 GPU,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Qualcomm Adreno 685 GPU,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Qualcomm Adreno 690 GPU,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Qualcomm Adreno X1,0.0002,0.0012
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Qualcomm(R) Adreno(TM) 7c+ Gen 3,0.0,0.0
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Steam Deck GPU,0.0,0.0004
+2026-05-01,pc,Vulkan Systems (Linux or Post-XP Windows with Vulkan GPU),Surface Duo Adreno 640 GPU,0.0,0.0
+2026-05-01,pc,Windows Version,Other,-0.0014,0.0003
+2026-05-01,pc,Windows Version,Windows 10 64 bit,-0.0159,0.2557
+2026-05-01,pc,Windows Version,Windows 11 64 bit,0.0253,0.7433
+2026-05-01,pc,Windows Version,Windows 7 64 bit,-0.0001,0.0007
