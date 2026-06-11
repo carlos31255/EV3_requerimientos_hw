@@ -26,7 +26,7 @@ EV3/
 └── README.md
 ```
 
-> **Nota:** Los CSVs raw de la Steam Hardware Survey (`shs_platform.csv`, `steamHWsurvey/`) no se incluyen en el repositorio por su tamaño. Se pueden regenerar con `filter_hardware.py` a partir del [dataset original de Kaggle](https://www.kaggle.com/datasets/jdegene/steamhardwaresurvey).
+> **Nota:** Los CSVs raw de la Steam Hardware Survey (`shs_platform.csv`, `steamHWsurvey/`) no se incluyen en el repositorio por su tamaño. Se pueden regenerar con `filter_hardware.py` a partir del [repo original de jdegene](https://github.com/jdegene/steamHWsurvey).
 
 ---
 
@@ -35,7 +35,7 @@ EV3/
 | Fuente | Descripción |
 |---|---|
 | [Kaggle — Steam Games Requirements](https://www.kaggle.com/) | Requisitos mínimos y recomendados de +80k juegos |
-| [Steam Hardware Survey](https://store.steampowered.com/hwsurvey/) | Encuesta mensual de hardware de jugadores activos |
+| [jdegene/steamHWsurvey](https://github.com/jdegene/steamHWsurvey) | Datos históricos de la Steam Hardware Survey scrapeados y mantenidos por jdegene |
 | [PCPartPicker](https://pcpartpicker.com/) | Precios en tiempo real de componentes de PC |
 
 ---
