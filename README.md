@@ -34,7 +34,7 @@ EV3/
 
 | Fuente | Descripción |
 |---|---|
-| [Kaggle — Steam Games Requirements](https://www.kaggle.com/) | Requisitos mínimos y recomendados de +80k juegos |
+| [Kaggle — PC Video Game Requirements](https://www.kaggle.com/datasets/baraazaid/pc-video-game-requirements) | Requisitos mínimos y recomendados de +80k juegos |
 | [jdegene/steamHWsurvey](https://github.com/jdegene/steamHWsurvey) | Datos históricos de la Steam Hardware Survey scrapeados y mantenidos por jdegene |
 | [PCPartPicker](https://pcpartpicker.com/) | Precios en tiempo real de componentes de PC |
 
