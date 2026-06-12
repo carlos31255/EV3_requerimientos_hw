@@ -39,7 +39,3 @@ EV3/
 | [PCPartPicker](https://pcpartpicker.com/) | Precios en tiempo real de componentes de PC |
 
 ---
-
-## Estado del proyecto
-
-> 🚧 En desarrollo activo — los cambios se trabajan en la rama `dev`.
