@@ -1,0 +1,26 @@
+# ─────────────────────────────────────────────────────────────────
+# EV3 — Requerimientos de Hardware para Juegos de PC
+# Dependencias del entorno virtual
+#
+# Crear entorno e instalar:
+#   python -m venv venv
+#   venv\Scripts\activate          (Windows)
+#   source venv/bin/activate       (Linux/Mac)
+#   pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────────────
+
+# ── ETL ──────────────────────────────────────────────────────────
+pandas>=2.0.0
+
+# ── Notebooks ────────────────────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# ── API (rama api) ───────────────────────────────────────────────
+# pypartpicker          # precios en tiempo real desde PCPartPicker
+
+# ── Dashboard (rama dashboard) ───────────────────────────────────
+# streamlit>=1.30.0
+
+# ── Tests ────────────────────────────────────────────────────────
+pytest>=7.0.0
