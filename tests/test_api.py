@@ -10,8 +10,13 @@ import sys
 ruta_actual = os.path.dirname(os.path.abspath(__file__))
 ruta_raiz = os.path.dirname(ruta_actual)
 
-sys.path.append(os.path.join(ruta_raiz, "api"))
+
+ruta_libreria = os.path.join(ruta_raiz, "data", "steamhwsurvey")
+
+sys.path.append(ruta_libreria)
+
 import steamHWScrawler
+
 
 
 def extraer_datos():
