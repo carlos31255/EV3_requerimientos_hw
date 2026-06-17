@@ -276,8 +276,8 @@ def run() -> pd.DataFrame:
         steam, _ = validate_dataframe(steam, STEAM_SCHEMA, logger)
         logger.info(f"  {len(steam):,} registros Steam cargados")
 
-        # ── Fuente 3: PCPartPicker (stub — la rama api lo llenara) ──
-        logger.info("Fuente 3 (PCPartPicker): columnas stub reservadas para la rama 'api'")
+        # ── Fuente 3: eBay API (stub — la rama api lo llenara) ──
+        logger.info("Fuente 3 (eBay API): columnas stub reservadas para la rama 'api'")
         stub_columns = {
             "price_cpu_usd":     pd.NA,
             "price_ram_usd":     pd.NA,
