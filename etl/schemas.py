@@ -63,7 +63,7 @@ STEAM_SCHEMA = {
 # Esquema 3: precios de componentes (stub — lo llena la rama api)
 # ─────────────────────────────────────────────────────────────────
 PARTPICKER_SCHEMA = {
-    "source": "PCPartPicker — PyPartPicker (stub ETL, precios reales via API)",
+    "source": "eBay Browse API (precios reales via API)",
     "required_columns": ["component_type", "name", "price_usd"],
     "non_null_columns": ["component_type", "name"],
     "dtype_checks": {
@@ -80,6 +80,37 @@ PARTPICKER_SCHEMA = {
             "column": "price_usd",
             "description": "price_usd debe ser mayor que 0 cuando no es nulo",
             "check": lambda df: df["price_usd"].isna() | df["price_usd"].gt(0),
+        },
+    ],
+}
+
+# ─────────────────────────────────────────────────────────────────
+# Esquema 4: dataset integrado final (output del ETL)
+# ─────────────────────────────────────────────────────────────────
+INTEGRATED_SCHEMA = {
+    "source": "ETL integrado — requirements_market.csv",
+    "required_columns": [
+        "game_name", "cpu", "ram", "gpu", "storage", "os",
+        "ram_gb_req", "ram_market_pct", "gpu_market_pct",
+        "gpu_tier", "gpu_match_status",
+        "price_cpu_usd", "price_ram_usd", "price_gpu_usd",
+        "price_storage_usd", "total_upgrade_usd",
+        "steam_survey_date",
+    ],
+    "non_null_columns": ["game_name", "gpu_tier", "gpu_match_status"],
+    "dtype_checks": {},
+    "value_constraints": [
+        {
+            "column": "gpu_tier",
+            "description": "gpu_tier debe ser ultra/high/mid/low/integrated/legacy/unknown",
+            "check": lambda df: df["gpu_tier"].isin(
+                ["ultra", "high", "mid", "low", "integrated", "legacy", "unknown"]
+            ),
+        },
+        {
+            "column": "gpu_match_status",
+            "description": "gpu_match_status debe ser found/legacy/unknown",
+            "check": lambda df: df["gpu_match_status"].isin(["found", "legacy", "unknown"]),
         },
     ],
 }

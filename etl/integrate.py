@@ -5,18 +5,21 @@ Integra las tres fuentes de datos del pipeline EV3:
 
   1. games_clean.csv          — requisitos de cada juego (Kaggle)
   2. shs_platform_latest.csv  — hardware real de jugadores (Steam HW Survey)
-  3. [stub]                   — precios de componentes (PCPartPicker via API)
+  3. [stub]                   — precios de componentes (eBay via API)
 
 Produce data/integrated/requirements_market.csv con:
   - Requisitos del juego (cpu, ram, gpu, storage, os)
   - Cuota de mercado Steam para cada nivel de RAM y GPU del juego
-  - Columnas de precio vacías (stubs que la rama 'api' llenara en tiempo real)
+  - gpu_tier        : clasificacion por nivel (legacy/low/mid/high/ultra)
+  - gpu_match_status: indica si la GPU matcheo con Steam (found/legacy/unknown)
+  - Columnas de precio vacias (stubs que la rama 'api' llenara en tiempo real)
 
 La logica de mercado:
   - RAM : dado el requisito "8 GB", calcula el % acumulado de usuarios
           con >= 8 GB segun la Steam HW Survey
-  - GPU : busca coincidencia por nombre del modelo en el ranking de GPUs
-          y extrae su porcentaje de mercado
+  - GPU : busca coincidencia por nombre del modelo en el ranking de GPUs.
+          Si no hay match, clasifica por tier usando patrones de modelo para
+          que la API pueda buscar un equivalente moderno en eBay.
 
 Salida: data/integrated/requirements_market.csv
 """
@@ -145,6 +148,109 @@ def lookup_gpu_market(gpu_name: str | None, gpu_table: pd.Series) -> float | Non
     return None
 
 
+# Patrones para clasificacion por tier (se evaluan en orden, primer match gana)
+# Formato: (regex_pattern, tier)
+_GPU_TIER_RULES: list[tuple[str, str]] = [
+    # NVIDIA — Ultra
+    (r"rtx\s*(40[6-9]\d|50\d\d)", "ultra"),
+    (r"rtx\s*30[89]\d", "ultra"),
+    # NVIDIA — High
+    (r"rtx\s*30[5-7]\d", "high"),
+    (r"rtx\s*20[6-9]\d", "high"),
+    (r"gtx\s*1080", "high"),
+    (r"gtx\s*1070", "high"),
+    # NVIDIA — Mid
+    (r"rtx\s*30[0-4]\d", "mid"),
+    (r"rtx\s*20[0-5]\d", "mid"),
+    (r"gtx\s*1060", "mid"),
+    (r"gtx\s*9[5-9]\d", "mid"),
+    (r"gtx\s*780", "mid"),
+    (r"gtx\s*770", "mid"),
+    (r"gtx\s*680", "mid"),
+    (r"gtx\s*670", "mid"),
+    # NVIDIA — Low
+    (r"gtx\s*1050", "low"),
+    (r"gtx\s*9[0-4]\d", "low"),
+    (r"gtx\s*7[0-6]\d", "low"),
+    (r"gtx\s*6[0-6]\d", "low"),
+    (r"geforce\s*gtx\s*[5-9]\d\d", "low"),
+    # NVIDIA — Legacy (modelos antiguos sin numero o muy bajos)
+    (r"geforce\s*(2\d\d|3\d\d|4\d\d|5\d\d|6\d\d|7\d\d|8\d\d|9\d\d)\b", "legacy"),
+    (r"geforce\s*[4-9]\d{3}", "legacy"),
+    (r"quadro", "legacy"),
+    # AMD/ATI — Ultra
+    (r"rx\s*79\d\d", "ultra"),
+    (r"rx\s*68[0-9]\d", "ultra"),
+    (r"rx\s*69\d\d", "ultra"),
+    # AMD — High
+    (r"rx\s*67\d\d", "high"),
+    (r"rx\s*66\d\d", "high"),
+    (r"rx\s*57[0-9]\d", "high"),
+    (r"radeon\s*vii", "high"),
+    # AMD — Mid
+    (r"rx\s*65\d\d", "mid"),
+    (r"rx\s*5[56]\d\d", "mid"),
+    (r"rx\s*5[89]\d", "mid"),
+    (r"r9\s*29\d", "mid"),
+    (r"r9\s*39\d", "mid"),
+    # AMD — Low
+    (r"rx\s*5[57]\d", "low"),
+    (r"rx\s*4[0-9]\d", "low"),
+    (r"r9\s*2[7-8]\d", "low"),
+    (r"r9\s*3[7-8]\d", "low"),
+    (r"r7\s*2[0-9]\d", "low"),
+    # AMD/ATI — Legacy
+    (r"(ati|amd)\s*(radeon\s*)?hd\s*[1-6]\d{3}", "legacy"),
+    (r"(ati|amd)\s*(radeon\s*)?hd\s*7\d{3}", "low"),
+    (r"(ati|firemv|firegl|firestream)", "legacy"),
+    # Intel — Integrated (categoria propia, no comparable con discreta)
+    (r"intel\s*(hd|uhd|iris\s*plus|iris\s*xe?)", "integrated"),
+    (r"intel\s*(media\s*accelerator|gma)", "legacy"),
+    (r"intel\s*arc", "mid"),
+]
+
+
+def classify_gpu_tier(gpu_name: str | None) -> str:
+    """
+    Clasifica una GPU en un tier de rendimiento basado en el nombre del modelo.
+
+    Tiers:
+      ultra     — gama alta actual (RTX 4080+, RX 7900+)
+      high      — gama alta accesible (RTX 3060-3070, RX 6600-6700)
+      mid       — gama media (GTX 1060, RX 580, RTX 2060)
+      low       — gama baja / entrada (GTX 1050, RX 550-570)
+      integrated— GPU integrada (Intel HD, Intel UHD, Iris)
+      legacy    — GPU obsoleta sin datos en Steam HW Survey actual
+      unknown   — no se pudo clasificar
+    """
+    if not isinstance(gpu_name, str):
+        return "unknown"
+    name = gpu_name.lower().strip()
+    for pattern, tier in _GPU_TIER_RULES:
+        if re.search(pattern, name):
+            return tier
+    return "unknown"
+
+
+def get_gpu_match_status(
+    gpu_name: str | None,
+    gpu_table: pd.Series,
+    market_pct: float | None,
+) -> str:
+    """
+    Devuelve el estado del matching de GPU:
+      found    — matcheo con Steam HW Survey (tiene market_pct)
+      legacy   — GPU muy antigua, no aparece en Steam Survey actual
+      unknown  — GPU no reconocida ni por Steam ni por el clasificador
+    """
+    if pd.notna(market_pct):
+        return "found"
+    tier = classify_gpu_tier(gpu_name)
+    if tier == "legacy":
+        return "legacy"
+    return "unknown"
+
+
 # ─────────────────────────────────────────────
 # Pipeline principal
 # ─────────────────────────────────────────────
@@ -196,6 +302,14 @@ def run() -> pd.DataFrame:
             lambda x: lookup_gpu_market(x, gpu_table)
         )
 
+        # Clasificacion de GPU por tier y estado de match
+        logger.info("Clasificando GPUs por tier de rendimiento...")
+        games["gpu_tier"] = games["gpu"].apply(classify_gpu_tier)
+        games["gpu_match_status"] = [
+            get_gpu_match_status(gpu, gpu_table, pct)
+            for gpu, pct in zip(games["gpu"], games["gpu_market_pct"])
+        ]
+
         # Agregar stubs de precios (columnas vacias para la API)
         for col, val in stub_columns.items():
             games[col] = val
@@ -208,13 +322,20 @@ def run() -> pd.DataFrame:
         games.to_csv(OUT_PATH, index=False, encoding="utf-8")
         logger.info(f"  Guardado: {OUT_PATH} ({len(games):,} filas)")
 
-        # Reporte rapido
+        # Reporte de cobertura
         ram_covered = games["ram_market_pct"].notna().sum()
         gpu_covered = games["gpu_market_pct"].notna().sum()
         logger.info(
-            f"  Cobertura — RAM: {ram_covered:,}/{len(games):,} juegos | "
-            f"GPU: {gpu_covered:,}/{len(games):,} juegos"
+            f"  Cobertura RAM  : {ram_covered:,}/{len(games):,} juegos"
         )
+        logger.info(
+            f"  Cobertura GPU  : {gpu_covered:,}/{len(games):,} juegos (match Steam)"
+        )
+        # Reporte de tiers
+        tier_counts = games["gpu_tier"].value_counts()
+        match_counts = games["gpu_match_status"].value_counts()
+        logger.info(f"  GPU Tiers      : {tier_counts.to_dict()}")
+        logger.info(f"  GPU Match      : {match_counts.to_dict()}")
 
     except FileNotFoundError as e:
         logger.error(str(e))
