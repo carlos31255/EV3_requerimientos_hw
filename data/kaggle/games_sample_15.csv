@@ -1,0 +1,16 @@
+game_name,cpu,ram,gpu,storage,os,target_performance,price_cpu_usd,price_gpu_usd,price_ram_usd,price_storage_usd,total_upgrade_usd
+Cyberpunk 2077,Core i5-12400F o Ryzen 5 5600X,16 GB,RTX 3060 Ti o RX 6700 XT,70 GB SSD,Windows 10 64-bit,1080p 60fps Alta,,,368.82,405.79,774.61
+Grand Theft Auto V,Core i5-6600K o Ryzen 5 1500X,8 GB,GTX 1060 6GB o RX 580 8GB,72 GB,Windows 10 64-bit,1080p 60fps Alta,,,133.81,40.33,174.14
+Valorant,Core i5-9400F o Ryzen 5 2600X,8 GB,GTX 1050 Ti o RX 560,30 GB,Windows 10 64-bit,1080p 144fps Competitivo,68.59,,133.81,212.89,415.28999999999996
+Fortnite,Core i5-11400F o Ryzen 5 3600,16 GB,RTX 3060 o RX 6600,30 GB SSD,Windows 10 64-bit,1080p 144fps Competitivo,,,368.82,147.04,515.86
+Hogwarts Legacy,Core i7-10700K o Ryzen 7 5800X,16 GB,RTX 3060 Ti o RX 6700 XT,85 GB SSD,Windows 10 64-bit,1080p 60fps Alta,,,368.82,418.49,787.31
+Red Dead Redemption 2,Core i7-8700K o Ryzen 5 3600,16 GB,RTX 2060 Super o RX 5700 XT,150 GB,Windows 10 64-bit,1080p 60fps Alta,407.06,,368.82,162.92,938.8
+Minecraft,Core i3-10100F o Ryzen 3 3100,8 GB,GTX 1650 o RX 570,4 GB,Windows 10 64-bit,1080p 60fps Alta,,,133.81,28.99,162.8
+League of Legends,Core i3-9100F o Ryzen 3 3200G,8 GB,GTX 1050 o RX 460,16 GB SSD,Windows 10 64-bit,1080p 144fps Competitivo,,,133.81,349.69,483.5
+Elden Ring,Core i7-8700K o Ryzen 5 3600X,16 GB,RTX 3060 o RX 6600,60 GB SSD,Windows 10 64-bit,1080p 60fps Alta,,,368.82,24.33,393.15
+Call of Duty: Warzone,Core i5-12400F o Ryzen 5 5600X,16 GB,RTX 3060 Ti o RX 6700 XT,175 GB SSD,Windows 10 64-bit,1080p 100fps Competitivo,,,368.82,425.12,793.94
+The Witcher 3: Wild Hunt,Core i5-10400F o Ryzen 5 3600,16 GB,RTX 3060 o RX 6600,35 GB SSD,Windows 10 64-bit,1080p 60fps Alta,,,368.82,264.34,633.16
+Apex Legends,Core i5-9600K o Ryzen 5 3600,16 GB,GTX 1660 Super o RX 5600 XT,75 GB,Windows 10 64-bit,1080p 144fps Competitivo,317.67,,368.82,190.42,876.91
+Counter-Strike: Global Offensive,Core i5-10400F o Ryzen 5 3600,8 GB,GTX 1660 Super o RX 5600 XT,15 GB,Windows 10 64-bit,1080p 144fps Competitivo,,,133.81,364.2,498.01
+Overwatch 2,Core i5-9400F o Ryzen 5 2600,8 GB,GTX 1650 Super o RX 5500 XT,50 GB,Windows 10 64-bit,1080p 144fps Competitivo,51.2,,133.81,56.28,241.29
+Baldur's Gate 3,Core i7-10700K o Ryzen 5 5600X,16 GB,RTX 3060 o RX 6600 XT,150 GB SSD,Windows 10 64-bit,1080p 60fps Alta,,,368.82,180.4,549.22
