@@ -11,11 +11,11 @@ st.set_page_config(page_title="Hardware Intelligence", layout="wide", page_icon=
 def get_db_connection():
     try:
         return mysql.connector.connect(
-            host='localhost',
+            host=os.environ.get('DB_HOST', 'localhost'),
             port=3306,
-            user='root',
-            password='',
-            database='tienda_hardware_intelligence'
+            user=os.environ.get('DB_USER', 'root'),
+            password=os.environ.get('DB_PASSWORD', ''),
+            database=os.environ.get('DB_NAME', 'tienda_hardware_intelligence')
         )
     except Exception as e:
         st.error(f"Error de conexión a MySQL: {e}")
