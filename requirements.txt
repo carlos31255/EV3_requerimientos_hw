@@ -20,7 +20,9 @@ ipykernel>=6.0.0
 # pypartpicker          # precios en tiempo real desde PCPartPicker
 
 # ── Dashboard (rama dashboard) ───────────────────────────────────
-# streamlit>=1.30.0
+streamlit>=1.30.0
+plotly>=5.18.0
+mysql-connector-python>=8.0.0
 
 # ── Tests ────────────────────────────────────────────────────────
 pytest>=7.0.0
