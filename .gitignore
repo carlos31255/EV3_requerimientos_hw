@@ -2,8 +2,16 @@
 # Raw / heavy data — no se suben al repo
 # ──────────────────────────────────────────────
 
-# Carpeta upstream de jdegene (datos crudos, no es nuestro código)
+# Dataset raw de la Steam HW Survey (descargado de Kaggle/jdegene)
+# Demasiado grande y no es nuestro código
+steamHWsurvey/
 /steamHWsurvey/
+
+# CSVs raw de la Steam HW Survey (pesados, se regeneran con filter_hardware.py)
+shs_platform.csv
+data/steamhwsurvey/shs_platform.csv
+data/steamhwsurvey/shs_filtered.csv
+data/steamhwsurvey/shs_platform_filtered.csv
 
 # ──────────────────────────────────────────────
 # Python

@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 build_name,cpu,ram,gpu,storage,target_profile
 El PC Promedio de Steam,Core i5-10400F o Ryzen 5 3600,16 GB,RTX 3060,1 TB SSD,1080p 60fps Estandar
 PC eSports Basico,Core i3-10100F o Ryzen 3 3100,8 GB,GTX 1650,500 GB SSD,1080p 144fps Competitivo
 PC Gama Alta Actual,Core i7-13700K o Ryzen 7 7800X3D,32 GB,RTX 4070 Ti,2 TB NVMe SSD,1440p Alta / 4K
 PC Ultra Presupuesto,Core i3-9100F o Ryzen 3 3200G,8 GB,GTX 1050 Ti,500 GB HDD,720p 60fps Basico
+=======
+build_name,cpu,ram,gpu,storage,target_profile,price_cpu_usd,price_gpu_usd,price_ram_usd,price_storage_usd,total_upgrade_usd
+El PC Promedio de Steam,Core i5-10400F o Ryzen 5 3600,16 GB,RTX 3060,1 TB SSD,1080p 60fps Estandar,,,368.82,546.66,915.48
+PC eSports Basico,Core i3-10100F o Ryzen 3 3100,8 GB,GTX 1650,500 GB SSD,1080p 144fps Competitivo,,,133.81,446.58,580.39
+PC Gama Alta Actual,Core i7-13700K o Ryzen 7 7800X3D,32 GB,RTX 4070 Ti,2 TB NVMe SSD,1440p Alta / 4K,,,369.68,268.8,638.48
+PC Ultra Presupuesto,Core i3-9100F o Ryzen 3 3200G,8 GB,GTX 1050 Ti,500 GB HDD,720p 60fps Basico,,,133.81,16.19,150.0
+>>>>>>> origin/api
