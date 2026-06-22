@@ -3,12 +3,7 @@
 # ──────────────────────────────────────────────
 
 # Carpeta upstream de jdegene (datos crudos, no es nuestro código)
-steamHWsurvey/
-
-# CSVs raw de la Steam HW Survey (pesados, se regeneran con filter_hardware.py)
-data/steamhwsurvey/shs_platform.csv
-data/steamhwsurvey/shs_filtered.csv
-data/steamhwsurvey/shs_platform_filtered.csv
+/steamHWsurvey/
 
 # ──────────────────────────────────────────────
 # Python
@@ -17,11 +12,16 @@ __pycache__/
 *.py[cod]
 *.pyo
 .env
+.env.*
+*.env
 .venv/
 venv/
 *.egg-info/
 dist/
 build/
+
+# Logs del pipeline ETL
+logs/
 
 # ──────────────────────────────────────────────
 # Jupyter

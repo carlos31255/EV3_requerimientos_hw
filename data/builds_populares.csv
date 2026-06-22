@@ -1,0 +1,5 @@
+build_name,cpu,ram,gpu,storage,target_profile
+El PC Promedio de Steam,Core i5-10400F o Ryzen 5 3600,16 GB,RTX 3060,1 TB SSD,1080p 60fps Estandar
+PC eSports Basico,Core i3-10100F o Ryzen 3 3100,8 GB,GTX 1650,500 GB SSD,1080p 144fps Competitivo
+PC Gama Alta Actual,Core i7-13700K o Ryzen 7 7800X3D,32 GB,RTX 4070 Ti,2 TB NVMe SSD,1440p Alta / 4K
+PC Ultra Presupuesto,Core i3-9100F o Ryzen 3 3200G,8 GB,GTX 1050 Ti,500 GB HDD,720p 60fps Basico
