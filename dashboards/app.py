@@ -36,69 +36,126 @@ def get_data():
 
 df_comp, df_prices, df_steam, df_tiers = get_data()
 
-st.title("💻 Dashboard de Inteligencia de Hardware")
-st.markdown("Visualización interactiva de datos del mercado y popularidad de componentes en Steam.")
+# ==========================================
+# HEADER Y ESTILO
+# ==========================================
+st.markdown("<h1 style='text-align: center; color: #4CAF50;'>💻 Dashboard de Hardware Intelligence</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: #888;'>Plataforma interactiva para el análisis de precios, demanda y popularidad global (Datos de Steam & eBay).</p>", unsafe_allow_html=True)
+st.divider()
 
 if df_comp is not None and not df_comp.empty:
-    # Preparar df_prices con nombres de componentes
     df_prices_full = df_prices.merge(df_comp[['id', 'name', 'categoria']], left_on='component_id', right_on='id')
-    
-    # 1. KPIs
-    col1, col2, col3 = st.columns(3)
-    col1.metric("Componentes Registrados", len(df_comp))
-    
-    gpu_mas_cara = df_prices_full[df_prices_full['categoria'] == 'GPU'].sort_values('price_clp', ascending=False).iloc[0]
-    col2.metric("GPU Más Cara", gpu_mas_cara['name'], f"${gpu_mas_cara['price_clp']:,.0f} CLP")
-    
     df_steam_full = df_steam.merge(df_comp[['id', 'name', 'categoria']], left_on='component_id', right_on='id')
-    comp_mas_popular = df_steam_full.sort_values('global_share_percentage', ascending=False).iloc[0]
-    col3.metric("Más Popular (Steam)", comp_mas_popular['name'], f"{comp_mas_popular['global_share_percentage']}% uso global")
     
-    st.markdown("---")
+    # ==========================================
+    # SECCIÓN 1: MÉTRICAS CLAVE (KPIs)
+    # ==========================================
+    st.subheader("🎯 Resumen del Mercado")
+    kpi1, kpi2, kpi3, kpi4 = st.columns(4)
     
-    # 2. Gráficos
-    st.subheader("Análisis de Precios de Mercado (API eBay)")
-    fig_precios = px.bar(
-        df_prices_full.sort_values('price_clp', ascending=False),
-        x='name', y='price_clp',
-        color='categoria',
-        title='Precios de Referencia (CLP)',
-        text=df_prices_full.sort_values('price_clp', ascending=False)['price_clp'].apply(lambda x: f'${x:,.0f}'),
-        color_discrete_sequence=px.colors.qualitative.Pastel
-    )
-    fig_precios.update_traces(textposition='outside')
-    fig_precios.update_layout(height=450)
-    st.plotly_chart(fig_precios, use_container_width=True)
+    with kpi1:
+        st.metric(label="📦 Total Componentes", value=len(df_comp))
+        
+    with kpi2:
+        gpu_mas_cara = df_prices_full[df_prices_full['categoria'] == 'GPU'].sort_values('price_clp', ascending=False).iloc[0]
+        st.metric(label="💸 GPU Más Cara", value=gpu_mas_cara['name'], delta=f"- ${gpu_mas_cara['price_clp']:,.0f} CLP", delta_color="inverse")
+        
+    with kpi3:
+        cpu_popular = df_steam_full[df_steam_full['categoria'] == 'CPU'].sort_values('global_share_percentage', ascending=False).iloc[0]
+        st.metric(label="🔥 CPU Más Popular (Steam)", value=cpu_popular['name'], delta=f"{cpu_popular['global_share_percentage']}% de uso")
+
+    with kpi4:
+        gpu_popular = df_steam_full[df_steam_full['categoria'] == 'GPU'].sort_values('global_share_percentage', ascending=False).iloc[0]
+        st.metric(label="🎮 GPU Más Popular (Steam)", value=gpu_popular['name'], delta=f"{gpu_popular['global_share_percentage']}% de uso")
+
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    # ==========================================
+    # SECCIÓN 2: GRÁFICOS PRINCIPALES
+    # ==========================================
+    col_izq, col_der = st.columns([1.5, 1])
     
-    st.markdown("---")
-    
-    colA, colB = st.columns(2)
-    
-    with colA:
-        st.subheader("Distribución de Catálogo por Gama")
+    with col_izq:
+        st.markdown("### 🏷️ Análisis de Precios de Referencia (CLP)")
+        # Gráfico más elegante con fondo transparente
+        df_precios_sorted = df_prices_full.sort_values('price_clp', ascending=True)
+        fig_precios = px.bar(
+            df_precios_sorted,
+            x='price_clp', y='name',
+            color='categoria',
+            orientation='h',
+            text=df_precios_sorted['price_clp'].apply(lambda x: f'${x:,.0f}'),
+            color_discrete_sequence=px.colors.qualitative.Pastel
+        )
+        fig_precios.update_traces(textposition='outside', textfont=dict(size=11))
+        fig_precios.update_layout(
+            height=450,
+            margin=dict(l=0, r=120, t=30, b=0),
+            plot_bgcolor='rgba(0,0,0,0)',
+            paper_bgcolor='rgba(0,0,0,0)',
+            xaxis_title="Precio (CLP)",
+            yaxis_title="",
+            xaxis=dict(showticklabels=False)
+        )
+        st.plotly_chart(fig_precios, use_container_width=True)
+
+    with col_der:
+        st.markdown("### 📊 Distribución de Inventario por Gama")
         df_comp_tiers = df_comp.merge(df_tiers, left_on='component_tiers_id', right_on='id')
         tier_dist = df_comp_tiers.groupby(['categoria', 'tier_name']).size().reset_index(name='cantidad')
+
         fig_tiers = px.bar(
             tier_dist,
             x='categoria', y='cantidad',
             color='tier_name',
             barmode='group',
-            title='Componentes por Categoría y Gama',
+            text='cantidad',
             color_discrete_map={'Gama Baja': '#3498db', 'Gama Media': '#2ecc71', 'Gama Alta': '#e74c3c'}
         )
-        st.plotly_chart(fig_tiers, use_container_width=True)
-        
-    with colB:
-        st.subheader("Hardware Popular en Steam")
-        fig_steam = px.bar(
-            df_steam_full.sort_values('global_share_percentage', ascending=True),
-            x='global_share_percentage', y='name',
-            orientation='h',
-            color='categoria',
-            title='Porcentaje de Usuarios Globales (%)',
-            color_discrete_sequence=px.colors.qualitative.Set2
+        fig_tiers.update_traces(textposition='outside')
+        fig_tiers.update_layout(
+            height=450,
+            margin=dict(l=0, r=0, t=30, b=0),
+            plot_bgcolor='rgba(0,0,0,0)',
+            paper_bgcolor='rgba(0,0,0,0)',
+            xaxis_title="Categoría",
+            yaxis_title="Cantidad",
+            legend_title="Gama"
         )
-        st.plotly_chart(fig_steam, use_container_width=True)
+        st.plotly_chart(fig_tiers, use_container_width=True)
 
+    # ==========================================
+    # SECCIÓN 3: STEAM HARDWARE SURVEY
+    # ==========================================
+    st.divider()
+    st.markdown("### 🔢 Variedad de Componentes por Categoría")
+    variedad = df_steam_full.groupby('categoria')['name'].nunique().reset_index()
+    variedad.columns = ['categoria', 'modelos_unicos']
+
+    fig_variedad = px.bar(
+        variedad.sort_values('modelos_unicos', ascending=False),
+        x='categoria', y='modelos_unicos',
+        text='modelos_unicos',
+        color='categoria',
+        color_discrete_sequence=px.colors.qualitative.Pastel
+    )
+    fig_variedad.update_traces(textposition='outside')
+    fig_variedad.update_layout(
+        height=350,
+        plot_bgcolor='rgba(0,0,0,0)',
+        paper_bgcolor='rgba(0,0,0,0)',
+        xaxis_title="Categoría",
+        yaxis_title="Modelos únicos",
+        showlegend=False
+    )
+    st.plotly_chart(fig_variedad, use_container_width=True)
+
+    # Detalle de componentes por categoría
+    with st.expander("📋 Ver detalle de componentes por categoría"):
+        for cat in variedad.sort_values('modelos_unicos', ascending=False)['categoria']:
+            componentes = df_steam_full[df_steam_full['categoria'] == cat][['name', 'global_share_percentage']].sort_values('global_share_percentage', ascending=False)
+            componentes.columns = ['Componente', '% usuarios Steam']
+            st.markdown(f"**{cat}**")
+            st.dataframe(componentes, use_container_width=True, hide_index=True)
 else:
-    st.warning("No se encontraron datos en la base de datos o MySQL no está corriendo.")
+    st.error("⚠️ No se encontraron datos en la base de datos o MySQL no está corriendo.")
