@@ -8,62 +8,85 @@ INSERT INTO component_tiers (tier_name, description) VALUES
 ('Gama Media', 'El est├índar de la industria. Ideal para jugar a 1080p y tareas de desarrollo.'),
 ('Gama Alta', 'Rendimiento entusiasta, streaming, renderizado y juego a 1440p o 4K.');
 
--- 2. Insertar Componentes (Cat├ílogo Maestro)
+-- 2. Insertar Componentes (Catálogo Maestro)
+-- 6 categorías × 3 gamas = cobertura completa del catálogo (20 componentes)
 INSERT INTO component (name, categoria, component_tiers_id) VALUES 
-('NVIDIA GeForce GTX 1650', 'GPU', 1),
-('NVIDIA GeForce RTX 3060', 'GPU', 2),
-('NVIDIA GeForce RTX 4070', 'GPU', 3),
-('AMD Radeon RX 6600', 'GPU', 2),
-('Intel Core i3-12100F', 'CPU', 1),
-('Intel Core i5-13400F', 'CPU', 2),
-('AMD Ryzen 5 5600X', 'CPU', 2),
-('AMD Ryzen 7 7800X3D', 'CPU', 3),
-('Crucial DDR4 8GB 3200MHz', 'RAM', 1),
-('Kingston Fury Beast DDR4 16GB 3200MHz', 'RAM', 2),
-('Corsair Vengeance DDR5 32GB 5600MHz', 'RAM', 3),
-('SSD Kingston NV2 1TB NVMe', 'Storage', 2),
-('SSD Crucial BX500 480GB SATA', 'Storage', 1),
-('Fuente MSI MAG A650BN 650W', 'Power Supply', 2),
-('Gabinete MSI Forge 112R', 'Case', 2);
+-- GPUs (3 gamas)
+('NVIDIA GeForce GTX 1650',    'GPU', 1),   -- id 1  Gama Baja
+('NVIDIA GeForce RTX 3060',    'GPU', 2),   -- id 2  Gama Media
+('NVIDIA GeForce RTX 4070',    'GPU', 3),   -- id 3  Gama Alta
+('AMD Radeon RX 6600',         'GPU', 2),   -- id 4  Gama Media
+-- CPUs (3 gamas)
+('Intel Core i3-12100F',       'CPU', 1),   -- id 5  Gama Baja
+('Intel Core i5-13400F',       'CPU', 2),   -- id 6  Gama Media
+('AMD Ryzen 5 5600X',          'CPU', 2),   -- id 7  Gama Media
+('AMD Ryzen 7 7800X3D',        'CPU', 3),   -- id 8  Gama Alta
+-- RAM (3 gamas)
+('Crucial DDR4 8GB 3200MHz',              'RAM', 1),  -- id 9  Gama Baja
+('Kingston Fury Beast DDR4 16GB 3200MHz', 'RAM', 2),  -- id 10 Gama Media
+('Corsair Vengeance DDR5 32GB 5600MHz',   'RAM', 3),  -- id 11 Gama Alta
+-- Storage (3 gamas)
+('SSD Kingston NV2 1TB NVMe',       'Storage', 2),   -- id 12 Gama Media
+('SSD Crucial BX500 480GB SATA',    'Storage', 1),   -- id 13 Gama Baja
+('SSD Samsung 990 Pro 2TB NVMe',    'Storage', 3),   -- id 17 Gama Alta  (auto_increment, ids 14-16 pre-existentes)
+-- PSU (3 gamas)
+('Fuente MSI MAG A650BN 650W',      'Power Supply', 2),  -- id 15 Gama Media
+('Fuente Cooler Master MWE 500W',   'Power Supply', 1),  -- id 18 Gama Baja
+('Fuente Corsair RM1000x 1000W',    'Power Supply', 3),  -- id 19 Gama Alta
+-- Case (3 gamas)
+('Gabinete MSI Forge 112R',         'Case', 2),  -- id 16 Gama Media
+('Gabinete Cougar MX330-X',         'Case', 1),  -- id 20 Gama Baja
+('Gabinete Lian Li O11 Dynamic EVO','Case', 3);  -- id 21 Gama Alta
 
 -- 3. Insertar Datos de Steam Hardware Survey (Cruce con nuestros IDs)
 INSERT INTO steam_hardware_survey (component_id, global_share_percentage, survey_date) VALUES 
-(1, 4.56, '2026-05-01'), -- GTX 1650
-(2, 6.20, '2026-05-01'), -- RTX 3060
-(3, 1.80, '2026-05-01'), -- RTX 4070
-(6, 3.50, '2026-05-01'), -- i5-13400F
-(7, 4.10, '2026-05-01'), -- Ryzen 5 5600X
-(9, 15.30, '2026-05-01'), -- 8GB de RAM
-(10, 42.10, '2026-05-01'), -- 16GB de RAM en general
+(1,  4.56, '2026-05-01'),  -- GTX 1650
+(2,  6.20, '2026-05-01'),  -- RTX 3060
+(3,  1.80, '2026-05-01'),  -- RTX 4070
+(6,  3.50, '2026-05-01'),  -- i5-13400F
+(7,  4.10, '2026-05-01'),  -- Ryzen 5 5600X
+(9,  15.30, '2026-05-01'), -- 8GB de RAM
+(10, 42.10, '2026-05-01'), -- 16GB de RAM
 (11, 28.50, '2026-05-01'), -- 32GB de RAM
-(12, 50.03, '2026-05-01'), -- SSD 1TB (Above 1 TB)
-(13, 17.71, '2026-05-01'), -- SSD 480GB (250 GB to 499 GB)
-(14, 55.00, '2026-05-01'); -- PSU 650W (Simulado, Steam no mide PSU)
+(12, 50.03, '2026-05-01'), -- SSD 1TB NVMe
+(13, 17.71, '2026-05-01'), -- SSD 480GB SATA
+(17, 10.20, '2026-05-01'), -- SSD 2TB NVMe
+(15, 55.00, '2026-05-01'); -- PSU 650W (simulado)
 
 -- 4. Insertar Precios de Mercado Externo (API eBay / Amazon)
 INSERT INTO market_prices_external (component_id, price_clp) VALUES 
-(1, 110000),  -- GTX 1650
-(2, 290000),  -- RTX 3060
-(3, 560000),  -- RTX 4070
-(4, 220000),  -- RX 6600
-(5, 85000),   -- i3-12100F
-(6, 170000),  -- i5-13400F
-(7, 125000),  -- Ryzen 5 5600X
-(8, 380000),  -- Ryzen 7 7800X3D
-(9, 18000),   -- DDR4 8GB
-(10, 35000),  -- DDR4 16GB
-(11, 120000), -- DDR5 32GB
-(12, 95000),  -- SSD 1TB
-(13, 30000),  -- SSD 480GB
-(14, 50000);  -- Fuente 650W
+(1,  110000),  -- GTX 1650
+(2,  290000),  -- RTX 3060
+(3,  560000),  -- RTX 4070
+(4,  220000),  -- RX 6600
+(5,  85000),   -- i3-12100F
+(6,  170000),  -- i5-13400F
+(7,  125000),  -- Ryzen 5 5600X
+(8,  380000),  -- Ryzen 7 7800X3D
+(9,  18000),   -- DDR4 8GB
+(10, 35000),   -- DDR4 16GB
+(11, 120000),  -- DDR5 32GB
+(12, 95000),   -- SSD 1TB NVMe
+(13, 30000),   -- SSD 480GB SATA
+(17, 185000),  -- SSD Samsung 990 Pro 2TB
+(15, 50000),   -- Fuente 650W (Gama Media)
+(18, 28000),   -- Fuente 500W (Gama Baja)
+(19, 145000),  -- Fuente 1000W (Gama Alta)
+(16, 75000),   -- Gabinete MSI Forge 112R
+(20, 30000),   -- Gabinete Cougar MX330-X
+(21, 180000);  -- Gabinete Lian Li O11 Dynamic EVO
 
 -- 5. Insertar Inventario Real de la Tienda (Simulando los insights del README)
 INSERT INTO store_inventory (component_id, stock_qty, store_price_clp) VALUES 
-(1, 45, 175000),  -- CASO SOBRESTOCK: Tenemos demasiadas 1650 y caras
-(2, 3, 330000),   -- Poco stock de un producto altamente demandado
-(3, 2, 670000),   -- CASO PRECIO ALTO: En eBay est├í a 560k, nosotros a 670k (Poco competitivos)
-(7, 12, 140000),
-(10, 0, 450000);  -- ALERTA DE STOCK: Kingston 16GB en stock 0
+(1,  45, 175000),  -- SOBRESTOCK: demasiadas GTX 1650 a precio alto
+(2,  3,  330000),  -- Poco stock de un producto altamente demandado
+(3,  2,  670000),  -- PRECIO ALTO: en eBay a 560k, nosotros a 670k
+(7,  12, 140000),  -- Ryzen 5 5600X
+(10, 0,  450000),  -- ALERTA DE STOCK: Kingston 16GB en 0
+(14, 5,  220000),  -- SSD Samsung 990 Pro 2TB
+(16, 20, 32000),   -- Fuente 500W (stock alto, gama baja)
+(19, 15, 35000),   -- Gabinete Cougar MX330-X
+(20, 2,  210000);  -- Gabinete Lian Li O11 Dynamic EVO
 
 -- 6. Insertar Historial de Ventas de la Tienda
 INSERT INTO store_sales (quantity_sold, sale_date, component_id) VALUES 
@@ -169,18 +192,24 @@ INSERT INTO build_templates (template_name, description) VALUES
 
 -- 11. Relacionar Componentes con las Plantillas (Muchos a Muchos)
 INSERT INTO build_components (build_templates_id, component_id) VALUES 
-(1, 1),  -- Build Economica usa la GTX 1650
-(1, 5),  -- Usa el i3
-(1, 9),  -- Usa 8GB de RAM
-(1, 13), -- Usa SSD 480GB
-(1, 14), -- Usa Fuente 650W
-(2, 2),  -- Build Ultra usa la RTX 3060
-(2, 7),  -- Usa el Ryzen 5 5600X
-(2, 10), -- Usa 16GB de RAM
-(2, 12), -- Usa SSD 1TB
-(2, 14), -- Usa Fuente 650W
-(3, 3),  -- Build 4K usa la RTX 4070
-(3, 8),  -- Usa el Ryzen 7 7800X3D
-(3, 11), -- Usa 32GB de DDR5
-(3, 12), -- Usa SSD 1TB
-(3, 14); -- Usa Fuente 650W
+-- Build Economica (Gama Baja)
+(1, 1),  -- GTX 1650
+(1, 5),  -- i3-12100F
+(1, 9),  -- 8GB RAM
+(1, 13), -- SSD 480GB SATA
+(1, 18), -- Fuente 500W (Gama Baja)
+(1, 20), -- Gabinete Cougar MX330-X
+-- Build Ultra 1080p (Gama Media)
+(2, 2),  -- RTX 3060
+(2, 7),  -- Ryzen 5 5600X
+(2, 10), -- 16GB RAM
+(2, 12), -- SSD 1TB NVMe
+(2, 15), -- Fuente 650W (Gama Media)
+(2, 16), -- Gabinete MSI Forge 112R
+-- Build 4K Enthusiast (Gama Alta)
+(3, 3),  -- RTX 4070
+(3, 8),  -- Ryzen 7 7800X3D
+(3, 11), -- 32GB DDR5
+(3, 17), -- SSD Samsung 990 Pro 2TB
+(3, 19), -- Fuente Corsair RM1000x 1000W
+(3, 21); -- Gabinete Lian Li O11 Dynamic EVO
