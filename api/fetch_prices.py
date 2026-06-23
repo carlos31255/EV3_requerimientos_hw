@@ -36,7 +36,7 @@ def procesar_ambos_archivos():
             ruta_salida = os.path.join(ruta_raiz, "data", "kaggle", "games_sample_15_PRICED.csv")
             
             logger.info(f"Cargando dataset desde {ruta_entrada}...")
-            df = pd.read_csv(ruta_entrada)
+            df = pd.read_csv(ruta_entrada, on_bad_lines='skip')
 
             cols_buscar = {
                 'CPU': df['cpu'].dropna().unique(),

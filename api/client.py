@@ -1,11 +1,15 @@
 import requests
 import base64
 import pandas as pd
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+APP_ID = os.getenv("APP_ID")
+CERT_ID = os.getenv("CERT_ID")
 
 
-APP_ID = "CarlosHi-Datascie-PRD-3a9225a69-37cc54dd"
-
-CERT_ID = "PRD-a9225a699d7c-02aa-4795-95c9-9db3"
 
 def get_token() -> str:
     if not APP_ID or not CERT_ID:
