@@ -64,7 +64,11 @@ def extract_steam_sample():
     rams = df_latest[df_latest['category'].str.contains('System RAM', na=False, case=False)]
     rams = rams.sort_values('percentage', ascending=False).head(5)
     
-    sample_df = pd.concat([gpus, rams])
+    # Sacamos el top 5 de Almacenamiento
+    storage = df_latest[df_latest['category'].str.contains('Total Hard Drive Space', na=False, case=False)]
+    storage = storage.sort_values('percentage', ascending=False).head(5)
+    
+    sample_df = pd.concat([gpus, rams, storage])
     
     sample_df.to_csv(steam_out, index=False)
     print(f"✅ Creado: {steam_out} ({len(sample_df)} filas)")

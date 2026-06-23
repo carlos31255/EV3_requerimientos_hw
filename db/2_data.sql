@@ -35,7 +35,10 @@ INSERT INTO steam_hardware_survey (component_id, global_share_percentage, survey
 (7, 4.10, '2026-05-01'), -- Ryzen 5 5600X
 (9, 15.30, '2026-05-01'), -- 8GB de RAM
 (10, 42.10, '2026-05-01'), -- 16GB de RAM en general
-(11, 28.50, '2026-05-01'); -- 32GB de RAM
+(11, 28.50, '2026-05-01'), -- 32GB de RAM
+(12, 50.03, '2026-05-01'), -- SSD 1TB (Above 1 TB)
+(13, 17.71, '2026-05-01'), -- SSD 480GB (250 GB to 499 GB)
+(14, 55.00, '2026-05-01'); -- PSU 650W (Simulado, Steam no mide PSU)
 
 -- 4. Insertar Precios de Mercado Externo (API eBay / Amazon)
 INSERT INTO market_prices_external (component_id, price_clp) VALUES 
@@ -72,40 +75,83 @@ INSERT INTO store_sales (quantity_sold, sale_date, component_id) VALUES
 
 -- 7. Insertar Cat├ílogo de Videojuegos (Kaggle)
 INSERT INTO games (titulo, release_year) VALUES 
-('Cyberpunk 2077', 2020),
-('Counter-Strike 2', 2023),
-('Valorant', 2020),
-('Elden Ring', 2022),
-('GTA V', 2015);
+  ('Cyberpunk 2077', 2020),
+  ('Counter-Strike: Global Offensive', 2012),
+  ('Valorant', 2020),
+  ('Elden Ring', 2022),
+  ('Grand Theft Auto V', 2015),
+  ('Fortnite', 2017),
+  ('Hogwarts Legacy', 2023),
+  ('Red Dead Redemption 2', 2018),
+  ('Minecraft', 2011),
+  ('League of Legends', 2009),
+  ('Call of Duty: Warzone', 2020),
+  ('The Witcher 3: Wild Hunt', 2015),
+  ('Apex Legends', 2019),
+  ('Overwatch 2', 2022),
+  ('Baldur''s Gate 3', 2023);
 
 -- 8. Insertar Requisitos de Hardware por Juego
 INSERT INTO game_requeriments (games_id, component_id, requirement_type) VALUES 
--- Cyberpunk Minimum: i5, GTX 1650, 8GB RAM, SSD 480, Fuente 650W, Gabinete
-(1, 6, 'Minimum'),
-(1, 1, 'Minimum'),
-(1, 9, 'Minimum'),
-(1, 13, 'Minimum'),
-(1, 14, 'Minimum'),
+  -- 1. Cyberpunk 2077
+  (1, 6, 'Minimum'), (1, 1, 'Minimum'), (1, 9, 'Minimum'), (1, 13, 'Minimum'), (1, 14, 'Minimum'),
+  (1, 7, 'Recommended'), (1, 2, 'Recommended'), (1, 10, 'Recommended'), (1, 12, 'Recommended'), (1, 14, 'Recommended'),
+  
+  -- 2. CS:GO
+  (2, 5, 'Minimum'), (2, 1, 'Minimum'), (2, 9, 'Minimum'), (2, 13, 'Minimum'), (2, 14, 'Minimum'),
+  (2, 7, 'Recommended'), (2, 4, 'Recommended'), (2, 10, 'Recommended'), (2, 13, 'Recommended'), (2, 14, 'Recommended'),
+  
+  -- 3. Valorant
+  (3, 5, 'Minimum'), (3, 1, 'Minimum'), (3, 9, 'Minimum'), (3, 13, 'Minimum'), (3, 14, 'Minimum'),
+  (3, 6, 'Recommended'), (3, 4, 'Recommended'), (3, 10, 'Recommended'), (3, 13, 'Recommended'), (3, 14, 'Recommended'),
+  
+  -- 4. Elden Ring
+  (4, 7, 'Minimum'), (4, 2, 'Minimum'), (4, 10, 'Minimum'), (4, 12, 'Minimum'), (4, 14, 'Minimum'),
+  (4, 8, 'Recommended'), (4, 3, 'Recommended'), (4, 11, 'Recommended'), (4, 12, 'Recommended'), (4, 14, 'Recommended'),
 
--- Cyberpunk Recommended: Ryzen 5, RTX 3060, 16GB RAM, SSD 1TB, Fuente 650W, Gabinete
-(1, 7, 'Recommended'),
-(1, 2, 'Recommended'),
-(1, 10, 'Recommended'),
-(1, 12, 'Recommended'),
-(1, 14, 'Recommended'),
+  -- 5. GTA V
+  (5, 5, 'Minimum'), (5, 1, 'Minimum'), (5, 9, 'Minimum'), (5, 13, 'Minimum'), (5, 14, 'Minimum'),
+  (5, 6, 'Recommended'), (5, 2, 'Recommended'), (5, 10, 'Recommended'), (5, 12, 'Recommended'), (5, 14, 'Recommended'),
 
--- CS2 Minimum
-(2, 5, 'Minimum'),
-(2, 1, 'Minimum'),
-(2, 9, 'Minimum'),
--- Valorant Minimum
-(3, 5, 'Minimum'),
-(3, 1, 'Minimum'),
-(3, 9, 'Minimum'),
--- Elden Ring Recommended
-(4, 8, 'Recommended'),
-(4, 3, 'Recommended'),
-(4, 11, 'Recommended');
+  -- 6. Fortnite
+  (6, 5, 'Minimum'), (6, 1, 'Minimum'), (6, 9, 'Minimum'), (6, 13, 'Minimum'), (6, 14, 'Minimum'),
+  (6, 6, 'Recommended'), (6, 2, 'Recommended'), (6, 10, 'Recommended'), (6, 12, 'Recommended'), (6, 14, 'Recommended'),
+
+  -- 7. Hogwarts Legacy
+  (7, 7, 'Minimum'), (7, 2, 'Minimum'), (7, 10, 'Minimum'), (7, 12, 'Minimum'), (7, 14, 'Minimum'),
+  (7, 8, 'Recommended'), (7, 3, 'Recommended'), (7, 11, 'Recommended'), (7, 12, 'Recommended'), (7, 14, 'Recommended'),
+
+  -- 8. Red Dead Redemption 2
+  (8, 6, 'Minimum'), (8, 1, 'Minimum'), (8, 9, 'Minimum'), (8, 12, 'Minimum'), (8, 14, 'Minimum'),
+  (8, 7, 'Recommended'), (8, 2, 'Recommended'), (8, 10, 'Recommended'), (8, 12, 'Recommended'), (8, 14, 'Recommended'),
+
+  -- 9. Minecraft
+  (9, 5, 'Minimum'), (9, 1, 'Minimum'), (9, 9, 'Minimum'), (9, 13, 'Minimum'), (9, 14, 'Minimum'),
+  (9, 6, 'Recommended'), (9, 4, 'Recommended'), (9, 10, 'Recommended'), (9, 13, 'Recommended'), (9, 14, 'Recommended'),
+
+  -- 10. League of Legends
+  (10, 5, 'Minimum'), (10, 1, 'Minimum'), (10, 9, 'Minimum'), (10, 13, 'Minimum'), (10, 14, 'Minimum'),
+  (10, 5, 'Recommended'), (10, 1, 'Recommended'), (10, 10, 'Recommended'), (10, 13, 'Recommended'), (10, 14, 'Recommended'),
+
+  -- 11. Call of Duty: Warzone
+  (11, 7, 'Minimum'), (11, 2, 'Minimum'), (11, 10, 'Minimum'), (11, 12, 'Minimum'), (11, 14, 'Minimum'),
+  (11, 8, 'Recommended'), (11, 3, 'Recommended'), (11, 11, 'Recommended'), (11, 12, 'Recommended'), (11, 14, 'Recommended'),
+
+  -- 12. The Witcher 3: Wild Hunt
+  (12, 6, 'Minimum'), (12, 1, 'Minimum'), (12, 9, 'Minimum'), (12, 13, 'Minimum'), (12, 14, 'Minimum'),
+  (12, 7, 'Recommended'), (12, 2, 'Recommended'), (12, 10, 'Recommended'), (12, 12, 'Recommended'), (12, 14, 'Recommended'),
+
+  -- 13. Apex Legends
+  (13, 6, 'Minimum'), (13, 1, 'Minimum'), (13, 9, 'Minimum'), (13, 13, 'Minimum'), (13, 14, 'Minimum'),
+  (13, 7, 'Recommended'), (13, 2, 'Recommended'), (13, 10, 'Recommended'), (13, 12, 'Recommended'), (13, 14, 'Recommended'),
+
+  -- 14. Overwatch 2
+  (14, 5, 'Minimum'), (14, 1, 'Minimum'), (14, 9, 'Minimum'), (14, 13, 'Minimum'), (14, 14, 'Minimum'),
+  (14, 6, 'Recommended'), (14, 4, 'Recommended'), (14, 10, 'Recommended'), (14, 13, 'Recommended'), (14, 14, 'Recommended'),
+
+  -- 15. Baldur's Gate 3
+  (15, 7, 'Minimum'), (15, 2, 'Minimum'), (15, 10, 'Minimum'), (15, 12, 'Minimum'), (15, 14, 'Minimum'),
+  (15, 8, 'Recommended'), (15, 3, 'Recommended'), (15, 11, 'Recommended'), (15, 12, 'Recommended'), (15, 14, 'Recommended');
 
 -- 9. Insertar Consultas Simuladas de Usuarios
 INSERT INTO user_queries (budget_clp, games_id) VALUES 

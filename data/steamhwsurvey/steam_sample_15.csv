@@ -14,3 +14,8 @@ date,category,name,change,percentage
 2026-05-01,System RAM,8 GB,0.0016,0.0782
 2026-05-01,System RAM,64 GB,0.0004,0.0414
 2026-05-01,System RAM,12 GB,0.0008,0.0254
+2026-05-01,Total Hard Drive Space,Above 1 TB,-0.0123,0.5003
+2026-05-01,Total Hard Drive Space,750 GB to 999 GB,0.0051,0.2395
+2026-05-01,Total Hard Drive Space,250 GB to 499 GB,0.0045,0.1771
+2026-05-01,Total Hard Drive Space,100 GB to 249 GB,0.0026,0.0561
+2026-05-01,Total Hard Drive Space,500 GB to 749 GB,-0.0001,0.0247
