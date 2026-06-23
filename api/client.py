@@ -1,11 +1,14 @@
 import requests
 import base64
+import os
 import pandas as pd
+from dotenv import load_dotenv
 
+# Cargar variables desde api/.env
+load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
 
-APP_ID = "CarlosHi-Datascie-PRD-3a9225a69-37cc54dd"
-
-CERT_ID = "PRD-a9225a699d7c-02aa-4795-95c9-9db3"
+APP_ID  = os.getenv("EBAY_APP_ID")
+CERT_ID = os.getenv("EBAY_CERT_ID")
 
 def get_token() -> str:
     if not APP_ID or not CERT_ID:
