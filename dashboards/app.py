@@ -35,9 +35,9 @@ def get_db_connection():
     try:
         return mysql.connector.connect(
             host=os.environ.get('DB_HOST', 'localhost'),
-            port=3306,
+            port=int(os.environ.get('DB_PORT', 3307)),
             user=os.environ.get('DB_USER', 'root'),
-            password=os.environ.get('DB_PASSWORD', ''),
+            password=os.environ.get('DB_PASSWORD', 'mysql'),
             database=os.environ.get('DB_NAME', 'tienda_hardware_intelligence')
         )
     except Exception as e:
