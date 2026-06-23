@@ -5,7 +5,7 @@ services:
     image: mysql:8.0
     container_name: ev3_mysql
     environment:
-      MYSQL_ROOT_PASSWORD: mysql
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
       MYSQL_DATABASE: tienda_hardware_intelligence
     ports:
       - "3307:3306"
@@ -15,7 +15,7 @@ services:
       - ./db/1_schema.sql:/docker-entrypoint-initdb.d/1_schema.sql
       - ./db/2_data.sql:/docker-entrypoint-initdb.d/2_data.sql
     healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-pmysql"]
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -34,7 +34,7 @@ services:
       - DB_HOST=db
       - DB_PORT=3306
       - DB_USER=root
-      - DB_PASSWORD=mysql
+      - DB_PASSWORD=
       - DB_NAME=tienda_hardware_intelligence
 
 volumes:

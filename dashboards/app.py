@@ -37,7 +37,7 @@ def get_db_connection():
             host=os.environ.get('DB_HOST', 'localhost'),
             port=int(os.environ.get('DB_PORT', 3307)),
             user=os.environ.get('DB_USER', 'root'),
-            password=os.environ.get('DB_PASSWORD', 'mysql'),
+            password=os.environ.get('DB_PASSWORD', ''),
             database=os.environ.get('DB_NAME', 'tienda_hardware_intelligence')
         )
     except Exception as e:
