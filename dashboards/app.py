@@ -189,15 +189,21 @@ with tab_exec:
 
     st.divider()
 
-    st.markdown("#### 📦 Distribución del catálogo por gama y categoría")
+    st.markdown("#### 📦 Catálogo de componentes: 20 modelos distribuidos en 3 gamas y 6 categorías")
     df_comp_tiers = df_comp.merge(df_tiers, left_on='component_tiers_id', right_on='id')
     tier_dist = df_comp_tiers.groupby(['categoria','tier_name']).size().reset_index(name='cantidad')
+    # Asegurar orden correcto visual
+    orden_gama = ['Gama Baja', 'Gama Media', 'Gama Alta']
+    tier_dist['tier_name'] = pd.Categorical(tier_dist['tier_name'], categories=orden_gama, ordered=True)
+    tier_dist = tier_dist.sort_values(['categoria', 'tier_name'])
+
     fig3 = px.bar(
         tier_dist, x='categoria', y='cantidad', color='tier_name', barmode='group', text='cantidad',
         color_discrete_map={'Gama Baja':'#3498db','Gama Media':'#2ecc71','Gama Alta':'#e74c3c'},
         labels={'categoria':'Categoría','cantidad':'Componentes','tier_name':'Gama'}
     )
     fig3.update_traces(textposition='outside')
+    fig3.update_layout(yaxis=dict(range=[0, tier_dist['cantidad'].max() + 1]))
     fig3.update_layout(height=300, plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)',
                        margin=dict(t=10,b=0))
     st.plotly_chart(fig3, use_container_width=True)
