@@ -33,7 +33,7 @@ apagar_proyecto.bat
 docker-compose down
 ```
 
-> El primer arranque puede tardar 30-60 segundos mientras MySQL inicializa la base de datos y carga los datos automáticamente desde `db/1_schema.sql` y `db/2_data.sql`.
+> El primer arranque puede tardar 30-60 segundos mientras MySQL inicializa la base de datos y carga los datos automáticamente desde `database/BD.sql` y `database/datos_BD.sql`.
 
 ---
 

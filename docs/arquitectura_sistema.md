@@ -165,7 +165,7 @@ EV3/
 ├── data/
 │   ├── kaggle/         ← Dataset de requisitos de juegos
 │   └── steamhwsurvey/  ← Datos de la encuesta Steam
-├── db/                 ← Scripts SQL (schema + datos iniciales)
+├── database/           ← Scripts SQL (schema + datos iniciales)
 ├── eda/                ← Análisis exploratorio (Jupyter)
 ├── etl/                ← Scripts de extracción y transformación
 ├── tests/              ← Pruebas del crawler de Steam

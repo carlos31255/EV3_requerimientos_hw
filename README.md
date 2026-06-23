@@ -23,7 +23,7 @@ El proyecto está estructurado modularmente siguiendo las mejores prácticas:
 
 - **`/etl/`**: Pipeline de extracción y transformación que toma los datasets crudos y genera muestras procesadas limpias (con logging profesional).
 - **`/api/`**: Módulo que consume la API de eBay y mindicador.cl para consultar y almacenar precios en tiempo real en la base de datos (con soporte concurrente y caché).
-- **`/db/`**: Base de datos MySQL con un esquema relacional (`1_schema.sql`) poblado inicialmente con datos de la tienda y el mercado (`2_data.sql`).
+- **`/database/`**: Base de datos MySQL con un esquema relacional (`BD.sql`) poblado inicialmente con datos de la tienda y el mercado (`datos_BD.sql`).
 - **`/dashboards/`**: Aplicación en Streamlit (`app.py`) con visualizaciones interactivas diferenciadas por audiencia.
 - **`/docker/`**: Configuración de contenedores. Orquestado con `docker-compose.yml` en la raíz.
 - **`/docs/`**: Documentación técnica detallada.
