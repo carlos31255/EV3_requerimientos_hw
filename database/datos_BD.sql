@@ -135,7 +135,7 @@ INSERT INTO game_requeriments (games_id, component_id, requirement_type) VALUES
 (2, 15, 'Minimum'),
 (2, 7,  'Recommended'),
 (2, 4,  'Recommended'),
-(2, 10, 'Recommended'),
+(2, 9,  'Recommended'),
 (2, 13, 'Recommended'),
 (2, 15, 'Recommended'),
 
@@ -147,7 +147,7 @@ INSERT INTO game_requeriments (games_id, component_id, requirement_type) VALUES
 (3, 15, 'Minimum'),
 (3, 6,  'Recommended'),
 (3, 4,  'Recommended'),
-(3, 10, 'Recommended'),
+(3, 9,  'Recommended'),
 (3, 13, 'Recommended'),
 (3, 15, 'Recommended'),
 
@@ -159,7 +159,7 @@ INSERT INTO game_requeriments (games_id, component_id, requirement_type) VALUES
 (4, 15, 'Minimum'),
 (4, 8,  'Recommended'),
 (4, 3,  'Recommended'),
-(4, 11, 'Recommended'),
+(4, 10, \'Recommended\'),
 (4, 12, 'Recommended'),
 (4, 17, 'Recommended'),
 
@@ -195,7 +195,7 @@ INSERT INTO game_requeriments (games_id, component_id, requirement_type) VALUES
 (7, 15, 'Minimum'),
 (7, 8,  'Recommended'),
 (7, 3,  'Recommended'),
-(7, 11, 'Recommended'),
+(7, 10, \'Recommended\'),
 (7, 12, 'Recommended'),
 (7, 17, 'Recommended'),
 
@@ -207,7 +207,7 @@ INSERT INTO game_requeriments (games_id, component_id, requirement_type) VALUES
 (8, 15, 'Minimum'),
 (8, 7,  'Recommended'),
 (8, 2,  'Recommended'),
-(8, 10, 'Recommended'),
+(8, 9,  'Recommended'),
 (8, 12, 'Recommended'),
 (8, 15, 'Recommended'),
 
@@ -243,7 +243,7 @@ INSERT INTO game_requeriments (games_id, component_id, requirement_type) VALUES
 (11, 15, 'Minimum'),
 (11, 8,  'Recommended'),
 (11, 3,  'Recommended'),
-(11, 11, 'Recommended'),
+(11, 10, \'Recommended\'),
 (11, 12, 'Recommended'),
 (11, 17, 'Recommended'),
 
@@ -291,7 +291,7 @@ INSERT INTO game_requeriments (games_id, component_id, requirement_type) VALUES
 (15, 15, 'Minimum'),
 (15, 8,  'Recommended'),
 (15, 3,  'Recommended'),
-(15, 11, 'Recommended'),
+(15, 10, \'Recommended\'),
 (15, 12, 'Recommended'),
 (15, 17, 'Recommended');
 
