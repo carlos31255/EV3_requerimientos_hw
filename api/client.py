@@ -4,11 +4,13 @@ import os
 import pandas as pd
 from dotenv import load_dotenv
 
-# Cargar variables desde api/.env
+# Las llaves de la API de eBay están almacenadas en el archivo api/.env
+# (excluido del repositorio vía .gitignore para no exponer credenciales)
+# y se cargan aquí en las variables APP_ID y CERT_ID usando python-dotenv.
 load_dotenv(dotenv_path=os.path.join(os.path.dirname(__file__), ".env"))
 
-APP_ID  = os.getenv("EBAY_APP_ID")
-CERT_ID = os.getenv("EBAY_CERT_ID")
+APP_ID  = os.getenv("EBAY_APP_ID")   # Client ID  (Application Key)
+CERT_ID = os.getenv("EBAY_CERT_ID")  # Client Secret (Cert ID)
 
 def get_token() -> str:
     if not APP_ID or not CERT_ID:
