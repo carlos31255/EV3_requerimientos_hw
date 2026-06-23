@@ -1,16 +1,16 @@
-game_name,cpu,ram,gpu,storage,os,target_performance
-Cyberpunk 2077,Core i5-12400F o Ryzen 5 5600X,16 GB,RTX 3060 Ti o RX 6700 XT,70 GB SSD,Windows 10 64-bit,1080p 60fps Alta
-Grand Theft Auto V,Core i5-6600K o Ryzen 5 1500X,8 GB,GTX 1060 6GB o RX 580 8GB,72 GB,Windows 10 64-bit,1080p 60fps Alta
-Valorant,Core i5-9400F o Ryzen 5 2600X,8 GB,GTX 1050 Ti o RX 560,30 GB,Windows 10 64-bit,1080p 144fps Competitivo
-Fortnite,Core i5-11400F o Ryzen 5 3600,16 GB,RTX 3060 o RX 6600,30 GB SSD,Windows 10 64-bit,1080p 144fps Competitivo
-Hogwarts Legacy,Core i7-10700K o Ryzen 7 5800X,16 GB,RTX 3060 Ti o RX 6700 XT,85 GB SSD,Windows 10 64-bit,1080p 60fps Alta
-Red Dead Redemption 2,Core i7-8700K o Ryzen 5 3600,16 GB,RTX 2060 Super o RX 5700 XT,150 GB,Windows 10 64-bit,1080p 60fps Alta
-Minecraft,Core i3-10100F o Ryzen 3 3100,8 GB,GTX 1650 o RX 570,4 GB,Windows 10 64-bit,1080p 60fps Alta
-League of Legends,Core i3-9100F o Ryzen 3 3200G,8 GB,GTX 1050 o RX 460,16 GB SSD,Windows 10 64-bit,1080p 144fps Competitivo
-Elden Ring,Core i7-8700K o Ryzen 5 3600X,16 GB,RTX 3060 o RX 6600,60 GB SSD,Windows 10 64-bit,1080p 60fps Alta
-Call of Duty: Warzone,Core i5-12400F o Ryzen 5 5600X,16 GB,RTX 3060 Ti o RX 6700 XT,175 GB SSD,Windows 10 64-bit,1080p 100fps Competitivo
-The Witcher 3: Wild Hunt,Core i5-10400F o Ryzen 5 3600,16 GB,RTX 3060 o RX 6600,35 GB SSD,Windows 10 64-bit,1080p 60fps Alta
-Apex Legends,Core i5-9600K o Ryzen 5 3600,16 GB,GTX 1660 Super o RX 5600 XT,75 GB,Windows 10 64-bit,1080p 144fps Competitivo
-Counter-Strike: Global Offensive,Core i5-10400F o Ryzen 5 3600,8 GB,GTX 1660 Super o RX 5600 XT,15 GB,Windows 10 64-bit,1080p 144fps Competitivo
-Overwatch 2,Core i5-9400F o Ryzen 5 2600,8 GB,GTX 1650 Super o RX 5500 XT,50 GB,Windows 10 64-bit,1080p 144fps Competitivo
-Baldur's Gate 3,Core i7-10700K o Ryzen 5 5600X,16 GB,RTX 3060 o RX 6600 XT,150 GB SSD,Windows 10 64-bit,1080p 60fps Alta
+Memory:,Graphics Card:,CPU:,File Size:,OS:,name
+ 6 GB, NVIDIA GeForce GTX 980 , Intel Core i5-6600 , 30 GB, Windows 10,Hogwarts Legacy System Requirements
+ 8 GB, NVIDIA GeForce GTX 970  or Radeon RX 470, Intel Core i5-3570K  or FX-8310, 70 GB, Windows 10 64-Bit,Cyberpunk 2077 System Requirements
+ 4 GB, Intel HD 4000  or Radeon HD 7870, Intel Core i3-3225 , 15 GB, Windows 7/8/10 64-bit,Fortnite System Requirements
+ 4 GB, Intel HD 4000 , Intel Core 2 Duo E8400  or Athlon 200GE, 23 GB, Windows 7 64-bit,Valorant System Requirements
+ 8 GB, AMD Radeon R9 280 , AMD FX-6300 , 150 GB, Windows 7 64-Bit,Red Dead Redemption 2 System Requirements
+ 6 GB, NVIDIA GeForce GT 640  or Radeon HD 7730, Intel Core i3-6300  or FX-4350, 22 GB, Windows 7 64-bit,Apex Legends System Requirements
+ 2 GB, AMD Radeon HD 6570 , Intel Core i3-530 , 16 GB," Windows XP (Service Pack 3 ONLY), Windows Vista, Windows 7, Windows 8, or Windows 10",League of Legends System Requirements
+ 6 GB, NVIDIA GeForce GTX 650  or Radeon HD 7350, Intel Core i3-530  or Phenom 8650, 50 GB, Windows 10 64-bit,Overwatch 2 System Requirements
+4 GB,Intel HD 4000,Intel Core i3-3210,2 GB,Any modern distributions from 2014 onwards,Minecraft System Requirements
+ 8 GB, NVIDIA GeForce GTX 670  or GeForce GTX 1650 or Radeon HD 7950, Intel Core i3-4340  or FX-6300, 175 GB, Windows 10 64-bit,Call of Duty: Warzone System Requirements
+ 8 GB, NVIDIA GeForce GTX 780  or Radeon R9 280X, Intel Core i5-4690  or FX-4350, 150 GB, Windows 7 64-bit,Baldur's Gate 3 System Requirements
+ 12 GB, NVIDIA GeForce GTX 1060 3GB  or Radeon RX 580, Intel Core i5-8400  or Ryzen 3 3300X, 60 GB, Windows 10,Elden Ring System Requirements
+ 8 GB, NVIDIA GeForce GTX 960  or Radeon RX 470, Intel Core i5-2500K  or Ryzen 3 1200, 125 GB, Windows 10 64-bit,Call of Duty: Warzone 2 System Requirements
+ 8 GB, NVIDIA GeForce GTX 660 , Intel Core i5-2500K , 3 GB, Windows 7,Minecraft Dungeons System Requirements
+ 8 GB, AMD Radeon HD 7870 , Intel Core i5-650 , 8 GB," Windows 10 (November 2019 Update or higher), 8 or 7 (64-bit with the latest updates; some functionality not supported on Windows 7 and 8)",Minecraft Legends System Requirements

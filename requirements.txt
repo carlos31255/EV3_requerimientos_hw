@@ -16,11 +16,18 @@ pandas>=2.0.0
 jupyter>=1.0.0
 ipykernel>=6.0.0
 
-# ── API (rama api) ───────────────────────────────────────────────
-# pypartpicker          # precios en tiempo real desde PCPartPicker
+# ── API (eBay + tipo de cambio) ──────────────────────────────────
+requests>=2.31.0
+python-dotenv>=1.0.0
 
-# ── Dashboard (rama dashboard) ───────────────────────────────────
-# streamlit>=1.30.0
+# ── Base de Datos ─────────────────────────────────────────────────
+mysql-connector-python>=8.0.0
+sqlalchemy>=2.0.0
+pymysql>=1.1.0
+
+# ── Dashboard ─────────────────────────────────────────────────────
+streamlit>=1.30.0
+plotly>=5.18.0
 
 # ── Tests ────────────────────────────────────────────────────────
 pytest>=7.0.0
