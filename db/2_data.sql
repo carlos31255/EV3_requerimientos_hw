@@ -26,21 +26,33 @@ INSERT INTO component (name, categoria, component_tiers_id) VALUES
 ('Fuente MSI MAG A650BN 650W', 'Power Supply', 2),
 ('Gabinete MSI Forge 112R', 'Case', 2);
 
--- 3. Insertar Datos de Steam Hardware Survey (Contexto Global)
+-- 3. Insertar Datos de Steam Hardware Survey (Cruce con nuestros IDs)
 INSERT INTO steam_hardware_survey (component_id, global_share_percentage, survey_date) VALUES 
-(1, 3.85, '2026-05-01'), -- GTX 1650 (Sigue siendo popular en el mundo)
-(2, 6.12, '2026-05-01'), -- RTX 3060 (Una de las m├ís usadas)
-(3, 2.45, '2026-05-01'), -- RTX 4070
+(1, 4.56, '2026-05-01'), -- GTX 1650
+(2, 6.20, '2026-05-01'), -- RTX 3060
+(3, 1.80, '2026-05-01'), -- RTX 4070
+(6, 3.50, '2026-05-01'), -- i5-13400F
 (7, 4.10, '2026-05-01'), -- Ryzen 5 5600X
-(10, 42.10, '2026-05-01'); -- 16GB de RAM en general
+(9, 15.30, '2026-05-01'), -- 8GB de RAM
+(10, 42.10, '2026-05-01'), -- 16GB de RAM en general
+(11, 28.50, '2026-05-01'); -- 32GB de RAM
 
--- 4. Insertar Precios de Referencia del Mercado Externo (eBay API)
+-- 4. Insertar Precios de Mercado Externo (API eBay / Amazon)
 INSERT INTO market_prices_external (component_id, price_clp) VALUES 
 (1, 110000),  -- GTX 1650
 (2, 290000),  -- RTX 3060
 (3, 560000),  -- RTX 4070
+(4, 220000),  -- RX 6600
+(5, 85000),   -- i3-12100F
+(6, 170000),  -- i5-13400F
 (7, 125000),  -- Ryzen 5 5600X
-(8, 380000);  -- Ryzen 7 7800X3D
+(8, 380000),  -- Ryzen 7 7800X3D
+(9, 18000),   -- DDR4 8GB
+(10, 35000),  -- DDR4 16GB
+(11, 120000), -- DDR5 32GB
+(12, 95000),  -- SSD 1TB
+(13, 30000),  -- SSD 480GB
+(14, 50000);  -- Fuente 650W
 
 -- 5. Insertar Inventario Real de la Tienda (Simulando los insights del README)
 INSERT INTO store_inventory (component_id, stock_qty, store_price_clp) VALUES 
@@ -66,13 +78,34 @@ INSERT INTO games (titulo, release_year) VALUES
 ('Elden Ring', 2022),
 ('GTA V', 2015);
 
--- 8. Insertar Requisitos de Hardware por Juego (Cruzando Demandas)
+-- 8. Insertar Requisitos de Hardware por Juego
 INSERT INTO game_requeriments (games_id, component_id, requirement_type) VALUES 
-(1, 2, 'Recommended'), -- Cyberpunk pide m├¡nimo/recomendado una RTX 3060
-(1, 6, 'Minimum'),     -- Cyberpunk pide un i5
-(2, 7, 'Recommended'), -- CS2 aprovecha bien el Ryzen 5
-(3, 5, 'Minimum'),     -- Valorant corre hasta en un i3
-(4, 3, 'Recommended'); -- Elden Ring con RayTracing pide RTX 4070
+-- Cyberpunk Minimum: i5, GTX 1650, 8GB RAM, SSD 480, Fuente 650W, Gabinete
+(1, 6, 'Minimum'),
+(1, 1, 'Minimum'),
+(1, 9, 'Minimum'),
+(1, 13, 'Minimum'),
+(1, 14, 'Minimum'),
+
+-- Cyberpunk Recommended: Ryzen 5, RTX 3060, 16GB RAM, SSD 1TB, Fuente 650W, Gabinete
+(1, 7, 'Recommended'),
+(1, 2, 'Recommended'),
+(1, 10, 'Recommended'),
+(1, 12, 'Recommended'),
+(1, 14, 'Recommended'),
+
+-- CS2 Minimum
+(2, 5, 'Minimum'),
+(2, 1, 'Minimum'),
+(2, 9, 'Minimum'),
+-- Valorant Minimum
+(3, 5, 'Minimum'),
+(3, 1, 'Minimum'),
+(3, 9, 'Minimum'),
+-- Elden Ring Recommended
+(4, 8, 'Recommended'),
+(4, 3, 'Recommended'),
+(4, 11, 'Recommended');
 
 -- 9. Insertar Consultas Simuladas de Usuarios
 INSERT INTO user_queries (budget_clp, games_id) VALUES 
