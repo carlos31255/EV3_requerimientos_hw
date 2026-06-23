@@ -169,12 +169,18 @@ INSERT INTO build_templates (template_name, description) VALUES
 
 -- 11. Relacionar Componentes con las Plantillas (Muchos a Muchos)
 INSERT INTO build_components (build_templates_id, component_id) VALUES 
-(1, 1),  -- Build Econ├│mica usa la GTX 1650
+(1, 1),  -- Build Economica usa la GTX 1650
 (1, 5),  -- Usa el i3
 (1, 9),  -- Usa 8GB de RAM
+(1, 13), -- Usa SSD 480GB
+(1, 14), -- Usa Fuente 650W
 (2, 2),  -- Build Ultra usa la RTX 3060
 (2, 7),  -- Usa el Ryzen 5 5600X
 (2, 10), -- Usa 16GB de RAM
+(2, 12), -- Usa SSD 1TB
+(2, 14), -- Usa Fuente 650W
 (3, 3),  -- Build 4K usa la RTX 4070
 (3, 8),  -- Usa el Ryzen 7 7800X3D
-(3, 11); -- Usa 32GB de DDR5
+(3, 11), -- Usa 32GB de DDR5
+(3, 12), -- Usa SSD 1TB
+(3, 14); -- Usa Fuente 650W
