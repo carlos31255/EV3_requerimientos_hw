@@ -189,7 +189,7 @@ with tab_exec:
 
     st.divider()
 
-    st.markdown("#### 📦 Catálogo de componentes: 20 modelos distribuidos en 3 gamas y 6 categorías")
+    st.markdown("#### 📦 Catálogo de componentes: 16 modelos distribuidos en 3 gamas y 5 categorías")
     df_comp_tiers = df_comp.merge(df_tiers, left_on='component_tiers_id', right_on='id')
     tier_dist = df_comp_tiers.groupby(['categoria','tier_name']).size().reset_index(name='cantidad')
     # Asegurar orden correcto visual
@@ -222,16 +222,15 @@ with tab_tec:
     col1, col2 = st.columns(2)
 
     with col1:
-        st.markdown("#### 📈 RAM Recomendada por juego (GB)")
-        df_ram_db = df_req_full[(df_req_full['categoria'] == 'RAM') & (df_req_full['requirement_type'] == 'Recommended')].copy()
-        df_ram_db['ram_gb'] = df_ram_db['name'].str.extract(r'(\d+)GB').astype(float)
-        df_ram_db = df_ram_db.sort_values('ram_gb')
+        st.markdown("#### 💾 RAM más exigida (Recomendada)")
+        df_ram_db = df_req_full[(df_req_full['categoria'] == 'RAM') & (df_req_full['requirement_type'] == 'Recommended')]
+        ram_counts = df_ram_db['name'].value_counts().reset_index()
+        ram_counts.columns = ['RAM', 'Frecuencia']
         
         fig_ram = px.bar(
-            df_ram_db, x='ram_gb', y='titulo', orientation='h',
-            color='ram_gb', color_continuous_scale='Purp',
-            labels={'ram_gb':'GB de RAM', 'titulo':''},
-            text=df_ram_db['ram_gb'].apply(lambda x: f'{int(x)} GB')
+            ram_counts, x='Frecuencia', y='RAM', orientation='h',
+            color='Frecuencia', color_continuous_scale='Purp',
+            labels={'Frecuencia':'Nº de juegos', 'RAM':''}
         )
         fig_ram.update_layout(height=400, margin=dict(l=0,r=0,t=10,b=0), coloraxis_showscale=False)
         st.plotly_chart(fig_ram, use_container_width=True)
@@ -273,12 +272,12 @@ with tab_tec:
 # ==========================================
 with tab_op:
     st.markdown("<span class='audience-badge badge-operativa'>🎮 Audiencia Operativa</span>", unsafe_allow_html=True)
-    st.markdown("### ¿Qué necesito para jugar?")
+    st.markdown("### 🛒 Simulador de Cotizaciones")
 
     col_izq, col_der = st.columns([1, 1.5])
 
     with col_izq:
-        st.markdown("#### 🕹️ Selecciona tu perfil")
+        st.markdown("#### 🎯 Cotizar por Juego Objetivo")
         juego_op = st.selectbox("Juego objetivo", df_juegos['titulo'].tolist(), key='op_juego')
         req_type = st.radio("Nivel de requisito", ['Minimum', 'Recommended'], horizontal=True)
 
@@ -289,7 +288,7 @@ with tab_op:
         costo_total = df_sel['price_clp'].sum()
 
         st.markdown("---")
-        st.markdown(f"**Componentes necesarios:**")
+        st.markdown(f"**Componentes a cotizar:**")
         for _, r in df_sel.iterrows():
             precio = f"${r['price_clp']:,.0f} CLP" if pd.notna(r.get('price_clp')) else "Sin precio"
             st.markdown(f"- **{r['categoria']}**: {r['name']} · {precio}")

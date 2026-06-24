@@ -23,7 +23,6 @@ INSERT INTO component (id, name, categoria, component_tiers_id) VALUES
 -- RAM
 (9,  'Crucial DDR4 8GB 3200MHz',            'RAM',          1),
 (10, 'Kingston Fury Beast DDR4 16GB 3200MHz','RAM',         2),
-(11, 'Corsair Vengeance DDR5 32GB 5600MHz', 'RAM',          3),
 -- Storage
 (12, 'SSD Kingston NV2 1TB NVMe',           'Storage',      2),
 (13, 'SSD Crucial BX500 480GB SATA',        'Storage',      1),
@@ -31,57 +30,74 @@ INSERT INTO component (id, name, categoria, component_tiers_id) VALUES
 -- Power Supply
 (15, 'Fuente MSI MAG A650BN 650W',          'Power Supply', 2),
 (16, 'Fuente Cooler Master MWE 500W',       'Power Supply', 1),
-(17, 'Fuente Corsair RM1000x 1000W',        'Power Supply', 3),
--- Case
-(18, 'Gabinete MSI Forge 112R',             'Case',         2),
-(19, 'Gabinete Cougar MX330-X',             'Case',         1),
-(20, 'Gabinete Lian Li O11 Dynamic EVO',    'Case',         3);
+(17, 'Fuente Corsair RM1000x 1000W',        'Power Supply', 3);
 
 -- 3. Steam Hardware Survey
-  -- PSU 650W
+INSERT INTO steam_hardware_survey (component_id, global_share_percentage, survey_date) VALUES 
+(1, 2.56, '2026-05-01'),
+(2, 6.20, '2026-05-01'),
+(3, 1.80, '2026-05-01'),
+(4, 0.95, '2026-05-01'),
+(5, 1.20, '2026-05-01'),
+(6, 3.50, '2026-05-01'),
+(7, 4.10, '2026-05-01'),
+(8, 0.85, '2026-05-01'),
+(9, 15.30, '2026-05-01'),
+(10, 42.10, '2026-05-01'),
+(13, 17.71, '2026-05-01'),
+(12, 50.03, '2026-05-01'),
+(14, 10.20, '2026-05-01');
 
 -- 4. Precios de Mercado Externo (eBay API)
 INSERT INTO market_prices_external (component_id, price_clp) VALUES 
-(1,  110000),   -- GTX 1650
-(2,  290000),   -- RTX 3060
-(3,  560000),   -- RTX 4070
-(4,  220000),   -- RX 6600
-(5,  85000),    -- i3-12100F
-(6,  170000),   -- i5-13400F
-(7,  125000),   -- Ryzen 5 5600X
-(8,  380000),   -- Ryzen 7 7800X3D
-(9,  18000),    -- DDR4 8GB
-(10, 35000),    -- DDR4 16GB
-(11, 120000),   -- DDR5 32GB
-(12, 95000),    -- SSD 1TB NVMe
-(13, 30000),    -- SSD 480GB SATA
-(14, 185000),   -- SSD 2TB NVMe
-(15, 50000),    -- Fuente 650W
-(16, 28000),    -- Fuente 500W
-(17, 145000),   -- Fuente 1000W
-(18, 75000),    -- Gabinete MSI Forge 112R
-(19, 30000),    -- Gabinete Cougar MX330-X
-(20, 180000);   -- Gabinete Lian Li O11 Dynamic EVO
+(1,  110000),
+(2,  290000),
+(3,  560000),
+(4,  220000),
+(5,  85000),
+(6,  170000),
+(7,  125000),
+(8,  380000),
+(9,  18000),
+(10, 35000),
+(12, 95000),
+(13, 30000),
+(14, 185000),
+(15, 50000),
+(16, 28000),
+(17, 145000);   -- Gabinete Lian Li O11 Dynamic EVO
 
 -- 5. Inventario
 INSERT INTO store_inventory (component_id, stock_qty, store_price_clp) VALUES 
-(1,  45, 175000),   -- SOBRESTOCK: GTX 1650 a precio alto
-(2,  3,  330000),   -- Poco stock, alta demanda
-(3,  2,  670000),   -- PRECIO ALTO vs eBay (560k)
-(7,  12, 140000),   -- Ryzen 5 5600X
-(10, 0,  450000),   -- ALERTA STOCK: 16GB RAM en 0
-(14, 5,  220000),   -- SSD Samsung 990 Pro 2TB
-(16, 20, 32000),    -- Fuente 500W stock alto
-(19, 15, 35000),    -- Gabinete Cougar
-(20, 2,  210000);   -- Gabinete Lian Li
+(1,  45, 175000),
+(2,  3,  330000),
+(3,  2,  670000),
+(4,  10, 260000),
+(5,  25, 105000),
+(6,  8,  205000),
+(7,  12, 140000),
+(8,  4,  420000),
+(9,  50, 25000),
+(10, 0,  450000),
+(12, 30, 115000),
+(13, 15, 45000),
+(14, 5,  220000),
+(15, 8,  65000),
+(16, 20, 32000),
+(17, 5,  160000);   -- Gabinete Lian Li
 
 -- 6. Historial de Ventas
-INSERT INTO store_sales (quantity_sold, sale_date, component_id) VALUES 
-(1, '2026-06-10', 1),
-(2, '2026-06-12', 2),
-(1, '2026-06-15', 3),
-(5, '2026-06-18', 12),
-(3, '2026-06-20', 7);
+INSERT INTO store_sales (component_id, quantity_sold, sale_date) VALUES 
+(1, 5, '2026-06-01'),
+(2, 12, '2026-06-02'),
+(3, 1, '2026-06-03'),
+(7, 8, '2026-06-04'),
+(10, 20, '2026-06-06'),
+(12, 15, '2026-06-07'),
+(15, 4, '2026-06-08'),
+(13, 6, '2026-06-09'),
+(8, 2, '2026-06-10'),
+(17, 1, '2026-06-11');
 
 -- 7. Catálogo de Videojuegos (Kaggle)
 INSERT INTO games (id, titulo, release_year) VALUES 
@@ -111,7 +127,7 @@ INSERT INTO game_requeriments (games_id, component_id, requirement_type) VALUES
 (1, 15, 'Minimum'),     -- Fuente 650W
 (1, 7,  'Recommended'), -- Ryzen 5 5600X
 (1, 2,  'Recommended'), -- RTX 3060
-(1, 11, \'Recommended\'), -- 16GB RAM
+(1, 10, 'Recommended'), -- 16GB RAM
 (1, 12, 'Recommended'), -- SSD 1TB
 (1, 15, 'Recommended'), -- Fuente 650W
 
@@ -183,7 +199,7 @@ INSERT INTO game_requeriments (games_id, component_id, requirement_type) VALUES
 (7, 15, 'Minimum'),
 (7, 8,  'Recommended'),
 (7, 3,  'Recommended'),
-(7, 11, \'Recommended\'),
+(7, 10, 'Recommended'),
 (7, 12, 'Recommended'),
 (7, 17, 'Recommended'),
 
@@ -299,24 +315,18 @@ INSERT INTO build_templates (id, template_name, description) VALUES
 
 -- 11. Build Components (Muchos a Muchos)
 INSERT INTO build_components (build_templates_id, component_id) VALUES 
--- Build Económica (Gama Baja)
-(1, 1),   -- GTX 1650
-(1, 5),   -- i3-12100F
-(1, 9),   -- 8GB RAM
-(1, 13),  -- SSD 480GB SATA
-(1, 16),  -- Fuente 500W
-(1, 19),  -- Gabinete Cougar MX330-X
--- Build Ultra 1080p (Gama Media)
-(2, 2),   -- RTX 3060
-(2, 7),   -- Ryzen 5 5600X
-(2, 10),  -- 16GB RAM
-(2, 12),  -- SSD 1TB NVMe
-(2, 15),  -- Fuente 650W
-(2, 18),  -- Gabinete MSI Forge 112R
--- Build 4K Enthusiast (Gama Alta)
-(3, 3),   -- RTX 4070
-(3, 8),   -- Ryzen 7 7800X3D
-(3, 11),  -- 32GB DDR5
-(3, 14),  -- SSD Samsung 990 Pro 2TB
-(3, 17),  -- Fuente Corsair RM1000x 1000W
-(3, 20);  -- Gabinete Lian Li O11 Dynamic EVO
+(1, 1),
+(1, 5),
+(1, 9),
+(1, 13),
+(1, 16),
+(2, 2),
+(2, 7),
+(2, 10),
+(2, 12),
+(2, 15),
+(3, 3),
+(3, 8),
+(3, 10),
+(3, 14),
+(3, 17);  -- Gabinete Lian Li O11 Dynamic EVO
