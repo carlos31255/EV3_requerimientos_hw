@@ -111,7 +111,7 @@ INSERT INTO game_requeriments (games_id, component_id, requirement_type) VALUES
 (1, 15, 'Minimum'),     -- Fuente 650W
 (1, 7,  'Recommended'), -- Ryzen 5 5600X
 (1, 2,  'Recommended'), -- RTX 3060
-(1, 10, 'Recommended'), -- 16GB RAM
+(1, 11, \'Recommended\'), -- 16GB RAM
 (1, 12, 'Recommended'), -- SSD 1TB
 (1, 15, 'Recommended'), -- Fuente 650W
 
@@ -183,7 +183,7 @@ INSERT INTO game_requeriments (games_id, component_id, requirement_type) VALUES
 (7, 15, 'Minimum'),
 (7, 8,  'Recommended'),
 (7, 3,  'Recommended'),
-(7, 10, 'Recommended'),
+(7, 11, \'Recommended\'),
 (7, 12, 'Recommended'),
 (7, 17, 'Recommended'),
 
