@@ -38,19 +38,7 @@ INSERT INTO component (id, name, categoria, component_tiers_id) VALUES
 (20, 'Gabinete Lian Li O11 Dynamic EVO',    'Case',         3);
 
 -- 3. Steam Hardware Survey
-INSERT INTO steam_hardware_survey (component_id, global_share_percentage, survey_date) VALUES 
-(1,  4.56,  '2026-05-01'),  -- GTX 1650
-(2,  6.20,  '2026-05-01'),  -- RTX 3060
-(3,  1.80,  '2026-05-01'),  -- RTX 4070
-(6,  3.50,  '2026-05-01'),  -- i5-13400F
-(7,  4.10,  '2026-05-01'),  -- Ryzen 5 5600X
-(9,  15.30, '2026-05-01'),  -- 8GB RAM
-(10, 42.10, '2026-05-01'),  -- 16GB RAM
-(11, 28.50, '2026-05-01'),  -- 32GB RAM
-(12, 50.03, '2026-05-01'),  -- SSD 1TB NVMe
-(13, 17.71, '2026-05-01'),  -- SSD 480GB SATA
-(14, 10.20, '2026-05-01'),  -- SSD 2TB NVMe
-(15, 55.00, '2026-05-01');  -- PSU 650W
+  -- PSU 650W
 
 -- 4. Precios de Mercado Externo (eBay API)
 INSERT INTO market_prices_external (component_id, price_clp) VALUES 

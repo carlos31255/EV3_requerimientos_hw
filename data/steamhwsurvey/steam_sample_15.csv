@@ -1,21 +1,21 @@
 date,category,name,change,percentage
-2026-05-01,Video Card Description,Other,0.0016,0.0922
-2026-05-01,Video Card Description,NVIDIA GeForce RTX 3060,-0.0014,0.0385
-2026-05-01,Video Card Description,NVIDIA GeForce RTX 4060 Laptop GPU,-0.0001,0.0377
-2026-05-01,Video Card Description,NVIDIA GeForce RTX 4060,-0.0031,0.0355
-2026-05-01,Video Card Description,NVIDIA GeForce RTX 3050,0.0006,0.031
-2026-05-01,Video Card Description,NVIDIA GeForce RTX 5070,0.0006,0.0292
-2026-05-01,Video Card Description,NVIDIA GeForce GTX 1650,-0.0001,0.0256999999999999
-2026-05-01,Video Card Description,NVIDIA GeForce RTX 5060,-0.0014,0.0243
-2026-05-01,Video Card Description,NVIDIA GeForce RTX 4060 Ti,-0.0013,0.0232
-2026-05-01,Video Card Description,AMD Radeon(TM) Graphics,0.0003,0.023
-2026-05-01,System RAM,16 GB,0.0028,0.4114
-2026-05-01,System RAM,32 GB,-0.0068,0.3686999999999999
-2026-05-01,System RAM,8 GB,0.0016,0.0782
-2026-05-01,System RAM,64 GB,0.0004,0.0414
-2026-05-01,System RAM,12 GB,0.0008,0.0254
-2026-05-01,Total Hard Drive Space,Above 1 TB,-0.0123,0.5003
-2026-05-01,Total Hard Drive Space,750 GB to 999 GB,0.0051,0.2395
+2026-05-01,Video Card Description,NVIDIA GeForce GTX 1650,-0.0001,0.0256
+2026-05-01,Video Card Description,NVIDIA GeForce RTX 3060,-0.0014,0.0620
+2026-05-01,Video Card Description,NVIDIA GeForce RTX 4070,0.0006,0.0180
+2026-05-01,Video Card Description,AMD Radeon RX 6600,0.0003,0.0095
+2026-05-01,Processor,Intel Core i3-12100F,0.0010,0.0120
+2026-05-01,Processor,Intel Core i5-13400F,0.0020,0.0350
+2026-05-01,Processor,AMD Ryzen 5 5600X,0.0015,0.0410
+2026-05-01,Processor,AMD Ryzen 7 7800X3D,0.0040,0.0085
+2026-05-01,System RAM,8 GB,0.0016,0.1530
+2026-05-01,System RAM,16 GB,0.0028,0.4210
+2026-05-01,System RAM,32 GB,-0.0068,0.2850
 2026-05-01,Total Hard Drive Space,250 GB to 499 GB,0.0045,0.1771
-2026-05-01,Total Hard Drive Space,100 GB to 249 GB,0.0026,0.0561
-2026-05-01,Total Hard Drive Space,500 GB to 749 GB,-0.0001,0.0247
+2026-05-01,Total Hard Drive Space,750 GB to 999 GB,0.0051,0.5003
+2026-05-01,Total Hard Drive Space,Above 1 TB,-0.0123,0.1020
+2026-05-01,Power Supply,650W,0.0010,0.1500
+2026-05-01,Power Supply,500W,0.0020,0.2500
+2026-05-01,Power Supply,1000W,-0.0010,0.0500
+2026-05-01,PC Case,Mid Tower (MSI Forge),0.0030,0.1000
+2026-05-01,PC Case,Mid Tower (Cougar MX330-X),0.0010,0.2000
+2026-05-01,PC Case,Full Tower (Lian Li),-0.0020,0.0800
