@@ -219,30 +219,9 @@ with tab_tec:
     st.markdown("<span class='audience-badge badge-tecnica'>🔧 Audiencia Técnica</span>", unsafe_allow_html=True)
     st.markdown("### 📊 Análisis de Requisitos de Juegos")
 
-    col1, col2 = st.columns([1,2])
-    with col1:
-        st.markdown("#### 🎮 Requisitos por juego")
-        juegos_db = sorted(df_req_full['titulo'].unique().tolist())
-        juego_sel = st.selectbox("Selecciona un juego", juegos_db)
-        
-        req_type = st.radio("Tipo de perfil:", ["Recommended", "Minimum"], horizontal=True)
-        
-        df_juego_req = df_req_full[(df_req_full['titulo'] == juego_sel) & (df_req_full['requirement_type'] == req_type)]
-        
-        def get_comp(cat):
-            res = df_juego_req[df_juego_req['categoria'] == cat]['name'].values
-            return res[0] if len(res) > 0 else "N/A"
-            
-        st.markdown(f"🖥️ **CPU:** {get_comp('CPU')}")
-        st.markdown(f"🎮 **GPU:** {get_comp('GPU')}")
-        st.markdown(f"💾 **RAM:** {get_comp('RAM')}")
-        st.markdown(f"💿 **Storage:** {get_comp('Storage')}")
-        st.markdown("🪟 **OS:** Windows 10/11 64-bit")
-        
-        target_str = "1080p 60fps (Recomendado)" if req_type == "Recommended" else "720p 30fps (Mínimo)"
-        st.info(f"🎯 Target: {target_str}")
+    col1, col2 = st.columns(2)
 
-    with col2:
+    with col1:
         st.markdown("#### 📈 RAM Recomendada por juego (GB)")
         df_ram_db = df_req_full[(df_req_full['categoria'] == 'RAM') & (df_req_full['requirement_type'] == 'Recommended')].copy()
         df_ram_db['ram_gb'] = df_ram_db['name'].str.extract(r'(\d+)GB').astype(float)
@@ -254,23 +233,35 @@ with tab_tec:
             labels={'ram_gb':'GB de RAM', 'titulo':''},
             text=df_ram_db['ram_gb'].apply(lambda x: f'{int(x)} GB')
         )
-        fig_ram.update_layout(height=450, margin=dict(l=0,r=0,t=0,b=0), coloraxis_showscale=False)
+        fig_ram.update_layout(height=400, margin=dict(l=0,r=0,t=10,b=0), coloraxis_showscale=False)
         st.plotly_chart(fig_ram, use_container_width=True)
 
-    st.divider()
+    with col2:
+        st.markdown("#### 🔍 GPUs más exigidas (Recomendados)")
+        df_gpu_db = df_req_full[(df_req_full['categoria'] == 'GPU') & (df_req_full['requirement_type'] == 'Recommended')]
+        gpu_counts = df_gpu_db['name'].value_counts().reset_index()
+        gpu_counts.columns = ['GPU', 'Frecuencia']
+        
+        fig_gpus = px.bar(
+            gpu_counts, x='Frecuencia', y='GPU', orientation='h',
+            color='Frecuencia', color_continuous_scale='OrRd',
+            labels={'Frecuencia':'Nº de juegos', 'GPU':''}
+        )
+        fig_gpus.update_layout(height=200, margin=dict(l=0,r=0,t=10,b=0), coloraxis_showscale=False)
+        st.plotly_chart(fig_gpus, use_container_width=True)
 
-    st.markdown("#### 🔍 GPUs más exigidas en requisitos Recomendados")
-    df_gpu_db = df_req_full[(df_req_full['categoria'] == 'GPU') & (df_req_full['requirement_type'] == 'Recommended')]
-    gpu_counts = df_gpu_db['name'].value_counts().reset_index()
-    gpu_counts.columns = ['GPU', 'Frecuencia']
-    
-    fig_gpus = px.bar(
-        gpu_counts, x='Frecuencia', y='GPU', orientation='h',
-        color='Frecuencia', color_continuous_scale='OrRd',
-        labels={'Frecuencia':'Nº de juegos que la piden', 'GPU':''}
-    )
-    fig_gpus.update_layout(height=350, margin=dict(l=0,r=0,t=10,b=0), coloraxis_showscale=False)
-    st.plotly_chart(fig_gpus, use_container_width=True)
+        st.markdown("#### ⚙️ CPUs más exigidas (Recomendados)")
+        df_cpu_db = df_req_full[(df_req_full['categoria'] == 'CPU') & (df_req_full['requirement_type'] == 'Recommended')]
+        cpu_counts = df_cpu_db['name'].value_counts().reset_index()
+        cpu_counts.columns = ['CPU', 'Frecuencia']
+        
+        fig_cpus = px.bar(
+            cpu_counts, x='Frecuencia', y='CPU', orientation='h',
+            color='Frecuencia', color_continuous_scale='Blues',
+            labels={'Frecuencia':'Nº de juegos', 'CPU':''}
+        )
+        fig_cpus.update_layout(height=200, margin=dict(l=0,r=0,t=10,b=0), coloraxis_showscale=False)
+        st.plotly_chart(fig_cpus, use_container_width=True)
 
     st.divider()
     st.markdown("#### 📋 Tabla completa de requisitos")
@@ -290,6 +281,9 @@ with tab_op:
         st.markdown("#### 🕹️ Selecciona tu perfil")
         juego_op = st.selectbox("Juego objetivo", df_juegos['titulo'].tolist(), key='op_juego')
         req_type = st.radio("Nivel de requisito", ['Minimum', 'Recommended'], horizontal=True)
+
+        target_str_op = "1080p 60fps (Recomendado)" if req_type == 'Recommended' else "720p 30fps (Mínimo)"
+        st.info(f"🎯 Rendimiento esperado: {target_str_op}")
 
         df_sel = df_req_full[(df_req_full['titulo']==juego_op) & (df_req_full['requirement_type']==req_type)]
         costo_total = df_sel['price_clp'].sum()
